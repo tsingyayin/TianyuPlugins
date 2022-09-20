@@ -1,0 +1,98 @@
+# Material values are 1:1 with in-game IDs. The prepending of "minecraft:" is optional
+# To specify states, do so with [brackets]. For example, "minecraft:chest[waterlogged=true]"
+# The above will search for any waterlogged chests. Other states will be ignored when checking.
+#
+# To add a custom category, see the categories.yml
+#
+# VeinMiner supports 3 different types of storage (SQLite is used by default)
+#   JSON: Each player's data is stored in its own JSON file under the specified directory.
+#   SQLite: Player data is stored in an SQLite database table. A flat file database. Generally faster than JSON.
+#   MySQL: Player data is stored remotely in a MySQL-compliant database (MySQL, MariaDB, etc.). Use this if you want to share VeinMiner data on multiple servers and have a MySQL server available to use
+
+MetricsEnabled: true
+PerformUpdateChecks: true
+
+DefaultActivationStrategy: SNEAK
+DefaultVeinMiningPattern: 'veinminer:default'
+CollectItemsAtSource: true
+NerfMcMMO: false
+
+RepairFriendly: false
+MaxVeinSize: 64
+Cost: 0.0
+
+DisabledGameModes:
+- CREATIVE
+- SPECTATOR
+DisabledWorlds:
+- world
+- world_nether
+- world_the_end
+
+Hunger:
+  HungerModifier: 4.0
+  MinimumFoodLevel: 1
+  HungryMessage: "&7You are too hungry to vein mine!"
+
+Client:
+  AllowActivationKeybind: true
+  AllowPatternSwitchingKeybind: true
+  AllowWireframeRendering: true
+
+Storage:
+  # Supported types...
+  # JSON: Each player's data is stored in its own JSON file under the specified directory.
+  # SQLite: Player data is stored in an SQLite database table. A flat file database. Generally faster than JSON.
+  # MySQL: Player data is stored remotely in a MySQL-compliant database (MySQL, MariaDB, etc.). Use this if you want to share VeinMiner data on multiple servers and have a MySQL server available to use.
+  Type: 'SQLite'
+
+  JSON:
+    Directory: '%plugin%/playerdata/'
+
+  MySQL:
+    Host: 'localhost'
+    Port: 3306
+    Username: 'username'
+    Password: 'password'
+    Database: 'veinminer'
+    TablePrefix: 'veinminer_'
+
+BlockList:
+  Pickaxe:
+  - 'minecraft:amethyst_cluster'
+  - 'minecraft:ancient_debris'
+  - 'minecraft:coal_ore'
+  - 'minecraft:copper_ore'
+  - 'minecraft:deepslate_coal_ore'
+  - 'minecraft:deepslate_copper_ore'
+  - 'minecraft:deepslate_diamond_ore'
+  - 'minecraft:deepslate_emerald_ore'
+  - 'minecraft:deepslate_gold_ore'
+  - 'minecraft:deepslate_iron_ore'
+  - 'minecraft:deepslate_lapis_ore'
+  - 'minecraft:deepslate_redstone_ore'
+  - 'minecraft:diamond_ore'
+  - 'minecraft:emerald_ore'
+  - 'minecraft:gold_ore'
+  - 'minecraft:iron_ore'
+  - 'minecraft:lapis_ore'
+  - 'minecraft:nether_quartz_ore'
+  - 'minecraft:nether_gold_ore'
+  - 'minecraft:raw_copper_block'
+  - 'minecraft:raw_gold_block'
+  - 'minecraft:raw_iron_block'
+  - 'minecraft:redstone_ore'
+
+Aliases:
+- 'minecraft:acacia_log;minecraft:acacia_wood'
+- 'minecraft:birch_log;minecraft:birch_wood'
+- 'minecraft:brown_mushroom_block;minecraft:red_mushroom_block'
+- 'minecraft:carved_pumpkin;minecraft:pumpkin'
+- 'minecraft:crimson_hyphae;minecraft:crimson_stem'
+- 'minecraft:dark_oak_log;minecraft:dark_oak_wood'
+- 'minecraft:grass;minecraft:tall_grass'
+- 'minecraft:jungle_log;minecraft:jungle_wood'
+- 'minecraft:mangrove_log;minecraft:mangrove_wood'
+- 'minecraft:oak_log;minecraft:oak_wood'
+- 'minecraft:spruce_log;minecraft:spruce_wood'
+- 'minecraft:warped_hyphae;minecraft:warped_stem'

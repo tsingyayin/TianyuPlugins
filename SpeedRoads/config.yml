@@ -1,0 +1,16 @@
+# maximum acceleration per tick
+stepSize: 0.06
+# Affected non-player living entities, may affect performance negatively
+# See https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+affectedEntities: []
+roads:
+  road0:
+    speed: 5.0
+    blocks:
+      - ANY
+      - DEAD_BRAIN_CORAL_BLOCK
+      - AIR
+
+
+
+

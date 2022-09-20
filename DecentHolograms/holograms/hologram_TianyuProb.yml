@@ -1,0 +1,36 @@
+﻿location: world:257.8:70.70:135.455
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0
+down-origin: false
+pages:
+- lines:
+  - content: '&b天雨镇抽卡概率运算法说明和公示'
+    height: 0.3
+  - content: '&e=================================='
+    height: 0.3
+  - content: '由于本服采用的抽卡插件是&a全独立事件&f判定概率，'
+    height: 0.3
+  - content: '即不像一般手游那样含有&c保底机制&f和&c概率递增机制&f，'
+    height: 0.3
+  - content: '因此为了玩家体验，我们按照以下算法&b重算独立事件概率&f：'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '以1%概率为例，则玩家内心理解相当于“每100抽&e必得&f1抽”'
+    height: 0.3
+  - content: '即可认为&c约等于&f“每100抽中，&c一次货都不出&f的概率低于0.1%”'
+    height: 0.3
+  - content: '若设&a单个抽卡随机事件&f中 &c抽不中&f的概率为&bX'
+    height: 0.3
+  - content: '则有&bX的100次方等于0.1%&f，解得&bX=0.9333'
+    height: 0.3
+  - content: '即&a单个独立抽卡事件&f&e抽中概率&f实际设置为1-X=&b6.67%'
+    height: 0.3
+  - content: '&e=================================='
+    height: 0.3
+  - content: '上述数据以&d&l卡西欧fx-991CN X&f&r计算结果为准。'
+    height: 0.3
+  actions: {}

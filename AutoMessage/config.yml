@@ -1,0 +1,62 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Message Configuration:
+#     Messages are handled in lists to allow for advanced customization!
+#     Feel free to add color codes by using & in your messages!
+#     To split a message onto multiple lines use the \n delimiter!
+#     Lines starting with / will be run as a command!
+#     To add single apostrophes into a message use ''.
+#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+#     If you are unfamiliar with YAML use the in-game commands: /am help
+
+settings:
+  enabled: true
+  min-players: 0
+  log-to-console: false
+message-lists:
+  json:
+    enabled: false
+    interval: 45
+    expiry: -1
+    random: false
+    messages:
+    - |-
+      {
+        "text": "Hover over me!",
+        "hoverEvent": {
+            "action": "show_text",
+            "value": [
+              {
+                "text": "Woah, you just hovered over me!",
+                "color": "blue"
+              }
+            ]
+        }
+      }
+    - |-
+      {
+        "text": "Click me to run a command!",
+        "clickEvent": {
+          "action": "run_command",
+          "value": "/say Clicked."
+        }
+      }
+    - |-
+      {
+        "text": "Click me to open Google!",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "http://google.com"
+        }
+      }
+  regular:
+    enabled: true
+    interval: 300
+    expiry: -1
+    random: false
+    messages:
+    - '&e=========&a[&b天雨公告1 （共4条）&a]&e=========&r\n建筑（生存家园或建筑、机器等）请建设在默认三维度\n获取资源请在主城随机传送到资源世界\n资源世界每日凌晨4:00刷新\n请不要在资源世界遗留物品或建筑\n&e==================================\n'
+    - '&e=========&a[&b天雨公告2 （共4条）&a]&e=========&r\n服务器快速菜单请使用命令/e，回城使用/warp spawn\n更多简要命令详见主城树下讲台书籍\n全部可用的完整指令见服务器指南手册\n\n此外，遇熊服事件请汇报给管理员，管理员可以进行局部回档操作\n保护、维持受灾现场，管理员可据此恢复您的大部分受灾区域\n&e==================================\n'
+    - '&e=========&a[&b天雨公告3 （共4条）&a]&e=========&r\n公共道路可以被纳入私人领地，但必须允许进入且不得中断\n影响个人规划的公共道路可以改道或改造，但应由个人完成建设\n破坏公共道路连通性和可进入性的玩家，一经发现立即封禁\n\n鼓励玩家聚居在公共道路附近，便于他人造访\n同时也可减轻服务器负担，提高游戏体验\n&e==================================\n'
+    - '&e=========&a[&b天雨公告4 （共4条）&a]&e=========&r\n请不要在未圈地区域建造临时眺望用通天柱\n非必要不开山、不填海、不挖空置域\n因刷怪需要的空置域可转为使用领地+子领地设置解决\n爱护地形和环境人人有责，违者视情况封禁\n&e==================================\n'

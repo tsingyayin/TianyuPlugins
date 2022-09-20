@@ -1,0 +1,61 @@
+﻿#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&8> &b补偿邮件或通知'
+#register_command: true
+open_command:
+  - tianyumailbox
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: residence.command.create
+      deny_commands:
+        - "[message] &c请先完成账户唯一性验证！"
+items:
+#==================================================
+#=======================补偿位=======================
+#==================================================
+  '2022091522_u':
+    material: BLACK_CONCRETE
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f2022年9月15日22:00闪断更新补偿'
+    lore:
+      - '&e补偿内容'
+      - '&b音符&f：&a13000'
+      - ''
+      - '&b已经领取'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.box.2022091522
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  '2022091522_a':
+    material: CHEST
+    slot: 0
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&f2022年9月15日22:00闪断更新补偿'
+    lore:
+      - '&e补偿内容'
+      - '&b音符&f：&a13000'
+      - ''
+      - '&c未领取'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[console] lp user %player_name% permission settemp tianyu.box.2022091522 true 180d'
+      - '[console] eco give %player_name% 13000'
+      - '[refresh]'

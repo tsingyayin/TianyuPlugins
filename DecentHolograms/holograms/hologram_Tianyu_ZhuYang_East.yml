@@ -1,0 +1,40 @@
+﻿location: world:260.278:70.469:-82.059
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c当前位置：&d天雨镇 竹阳桥区 天繁旧道'
+    height: 0.4
+  - content: '&b========东北方========'
+    height: 0.3
+  - content: '&b天繁旧道'
+    height: 0.3
+  - content: '洛天依 夏日Ver 大型模型 &a642m'
+    height: 0.3
+  - content: '繁花镇 &a2649m'
+    height: 0.3
+  - content: '&b========西北方向========'
+    height: 0.3
+  - content: '&b天谷旧道（西北沿线）'
+    height: 0.3
+  - content: '山心镇 &a584m'
+    height: 0.3
+  - content: 'Gra_dus之家 &a1308m'
+    height: 0.3
+  - content: '&b石门路（下一北方出口）'
+    height: 0.3
+  - content: '&b========南方========'
+    height: 0.3
+  - content: '&b梦昇北路'
+    height: 0.3
+  - content: '层岩镇 &a214m'
+    height: 0.3
+  - content: '层岩镇东 &a318m'
+    height: 0.3
+  - content: '凤凰城 &a913m'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,110 @@
+﻿Crate:
+  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+
+  # Make sure to check out the wiki for anything not explained here.
+  # https://github.com/Crazy-Crew/Crazy-Crates/wiki
+
+  # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
+  CrateType: CSGO
+  # Name of the Inventory if a GUI crate.
+  CrateName: '&d武器池 &c[勿忘我]'
+  # The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&d武器池 &c[勿忘我]'
+  # Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  # If the crate shows in the /cc GUI.
+  # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
+  InGUI: false
+  # Slot the item is in the GUI.
+  Slot: 21
+  # Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: true
+  # Message that is broadcast when opening the crate.
+  BroadCast: '%Prefix%&f%Player%&r &7正在捞取 &d武器池 &c[勿忘我]&7.'
+  # Item the crate is in the GUI
+  Item: 'CHEST'
+  # If the crate in the main /cc GUI is glowing or not.
+  Glowing: false
+  # Name of the item in the GUI.
+  Name: '&a&l武器池'
+  # The lore of the item in the GUI.
+  Lore:
+    - '&7This crate contains strange objects.'
+    - '&7You have &6%Keys% keys &7to open this crate with.'
+    - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  Preview:
+    # Turn on and off the preview for this crate.
+    Toggle: true
+    # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 6
+    Glass:
+      # Turn the glass boarder in the preview on and off.
+      Toggle: true
+      # The item that shows in the boarder. Can be glass or any other item.
+      Item: 'GRAY_STAINED_GLASS_PANE'
+  PhysicalKey:
+    # Name of the Key.
+    Name: '&x&1&C&E&8&C&7对象指针&x&1&D&8&8&E&8(weapon*)'
+    # Lore of the Key.
+    Lore:
+      - '&a -“全称应该是Tianyu::weapon *p'
+      - '&a         但是我们好像默认了Tianyu的内存空间”'
+      - '&a -“无所谓了，反正从内存堆区找到这些被抛弃'
+      - '&a         的内存怎么想都不是一件简单的事情”'
+      - '&7有若干武器对象内存被抛弃在武器内存池里'
+      - '&7将这些对象重新挂载在指针上，使它们能被复用'
+    # The item the key is.
+    Item: 'ARROW'
+    # Makes the key look enchanted.
+    Glowing: true
+    # Settings for the holograms.
+  Hologram:
+    # Toggle on and off the holograms for the crates.
+    Toggle: true
+    # The height of the hologram above the crate.
+    Height: 2.6
+    # The message that will be displayed.
+    Message:
+      - '&d&l武器池 &c[勿忘我]'
+      - '&f当期1%：&d影霄·奔夜'
+      - '&a左键预览，右键抽取'
+  # All the prizes that can be gotten in the Crate.
+  Prizes:
+    2:
+      DisplayName: '&d影霄·奔夜'
+      DisplayItem: 'netherite_sword#1000'
+      DisplayAmount: 1
+      Lore:
+        - '&a异界的法术抽象出的单手剑。'
+        - '&a 是能力的汇聚，心灵的升变。'
+        - ''
+        - '&7他说......他问......'
+        - '&7他感叹......'
+        - '&7“我王......你往何处去？”'
+        - ''
+        - '&f概率：&d1%'
+      DisplayEnchantments:
+        - 'SHARPNESS:10'
+        - 'MENDING:1'
+      Firework: true
+      MaxRange: 10000
+      Chance: 667
+      Items:
+        - 'Item:NETHERITE_SWORD#1000, Amount:1, Name:&d影霄·奔夜, SHARPNESS:10, MENDING:1, Lore:&d,&7天雨资源编号：1000'
+      Commands:
+        - 'mirai sendgroupmessage 2835190581 905744768 %Player%在武器池[勿忘我]中抽中了 影霄·奔夜（新版）  '
+        - 'broadcast &b&l%Player%&r&f抽到了&d影霄·奔夜（新版）'
+    3:
+      DisplayName: '&e&l♬10'
+      DisplayItem: 'SUNFLOWER'
+      DisplayAmount: 1
+      Lore:
+        - '&7Make it rain Money.'
+        - '&6&lChance: &c&l98%'
+      MaxRange: 10000
+      Chance: 9333
+      Commands:
+        - 'eco give %Player% 10'
+        #- 'lp user %player% permission set crazycrates.blacklist.basic.3' -> This is the line where you would give the user the permission.
+      Messages:
+        - '&7You just won &a♬10&7.'

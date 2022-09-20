@@ -1,0 +1,1296 @@
+﻿#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&8> &b天雨镇服务器快捷菜单'
+#register_command: true
+open_command:
+  - tianyutoolbox
+  - e
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 54
+# as always, only cool people can open this menu :)
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.open
+      deny_commands:
+        - "[message] &8[&bDeluxe&eMenus&8] &cYou don't have perms for this!"
+items:
+#==================================================
+#=======================时间位=======================
+#==================================================
+  'group_time_default':
+    material: CLOCK
+    slot: 8
+    priority: 10
+    update: true
+    hide_attributes: true
+    display_name: '&f北明桥等级 剩余时间'
+    lore:
+      - '&f该等级是永久的'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+  'group_time_vip1':
+    material: CLOCK
+    slot: 8
+    priority: 9
+    update: true
+    hide_attributes: true
+    display_name: '&2绘玖桥等级 剩余时间'
+    lore:
+      - '&f剩余时间：%luckperms_group_expiry_time_-vip1%'
+      - '&a如果上一行没有数据，那么您的等级剩余时间为无限。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip1
+  'group_time_vip2':
+    material: CLOCK
+    slot: 8
+    priority: 8
+    update: true
+    hide_attributes: true
+    display_name: '&a落樱桥等级 剩余时间'
+    lore:
+      - '&f剩余时间：%luckperms_group_expiry_time_vip2%'
+      - '&a如果上一行没有数据，那么您的等级剩余时间为无限。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip2
+  'group_time_vip3':
+    material: CLOCK
+    slot: 8
+    priority: 7
+    update: true
+    hide_attributes: true
+    display_name: '&9宁济桥等级 剩余时间'
+    lore:
+      - '&f剩余时间：%luckperms_group_expiry_time_vip3%'
+      - '&a如果上一行没有数据，那么您的等级剩余时间为无限。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip3
+  'group_time_vip4':
+    material: CLOCK
+    slot: 8
+    priority: 6
+    update: true
+    hide_attributes: true
+    display_name: '&9拾霖桥等级 剩余时间'
+    lore:
+      - '&f剩余时间：%luckperms_group_expiry_time_vip4%'
+      - '&a如果上一行没有数据，那么您的等级剩余时间为无限。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip4
+  'group_time_vip5':
+    material: CLOCK
+    slot: 8
+    priority: 5
+    update: true
+    hide_attributes: true
+    display_name: '&b梦昇桥等级 剩余时间'
+    lore:
+      - '&f剩余时间：%luckperms_group_expiry_time_vip5%'
+      - '&a如果上一行没有数据，那么您的等级剩余时间为无限。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip5
+  'group_time_svip':
+    material: CLOCK
+    slot: 8
+    priority: 4
+    update: true
+    hide_attributes: true
+    display_name: '&b天雨桥等级 剩余时间'
+    lore:
+      - '&f剩余时间：%luckperms_group_expiry_time_svip%'
+      - '&a如果上一行没有数据，那么您的等级剩余时间为无限。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.svip
+  'group_time_3svip':
+    material: CLOCK
+    slot: 8
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&eSSSVIP等级 剩余时间'
+    lore:
+      - '&f剩余时间：%luckperms_group_expiry_time_3svip%'
+      - '&a如果上一行没有数据，那么您的等级剩余时间为无限。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.3svip
+  'group_time_ca':
+    material: CLOCK
+    slot: 8
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&c社区管理员等级 剩余时间'
+    lore:
+      - '&f剩余时间：%luckperms_group_expiry_time_ca%'
+      - '&a如果上一行没有数据，那么您的等级剩余时间为无限。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.ca
+
+#==================================================
+#=======================权限位=======================
+#==================================================
+  'group_default':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f北明桥 等级'
+    lore:
+      - '&f您在服务器中拥有基础权限'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+  'group_vip1':
+    material: GREEN_STAINED_GLASS_PANE
+    slot: 1
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&2绘玖桥 等级'
+    lore:
+      - '&f您可以请求他人传送至此，使用领地传送'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip1
+  'group_vip1_d':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7绘玖桥 等级&4（未激活）'
+    lore:
+      - '&f您可以请求他人传送至此，使用领地传送'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+  'group_vip2':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 2
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&a落樱桥 等级'
+    lore:
+      - '&f您可以查询容器使用记录，使用鸡蛋捕捉生物'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip2
+  'group_vip2_d':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 2
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7落樱桥 等级&4（未激活）'
+    lore:
+      - '&f您可以查询容器使用记录，使用鸡蛋捕捉生物'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+  'group_vip3':
+    material: BLUE_STAINED_GLASS_PANE
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&9宁济桥 等级'
+    lore:
+      - '&f您可以使用随身工作台'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip3
+  'group_vip3_d':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 3
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7宁济桥 等级&4（未激活）'
+    lore:
+      - '&f您可以使用随身工作台'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+  'group_vip4':
+    material: BLUE_STAINED_GLASS_PANE
+    slot: 4
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&9拾霖桥 等级'
+    lore:
+      - '&f您可以使用随身末影箱'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip4
+  'group_vip4_d':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 4
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7拾霖桥 等级&4（未激活）'
+    lore:
+      - '&f您可以使用随身末影箱'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+  'group_vip5':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slot: 5
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&b梦昇桥 等级'
+    lore:
+      - '&f您可以使用连锁挖矿，允许申请CVIP'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip5
+  'group_vip5_d':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 5
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7梦昇桥 等级&4（未激活）'
+    lore:
+      - '&f您可以使用连锁挖矿，允许申请CVIP'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+  'group_svip':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slot: 6
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&b天雨桥 等级'
+    lore:
+      - '&f您可以免除摔伤并且飞行'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.svip
+  'group_svip_d':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 6
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7天雨桥 等级&4（未激活）'
+    lore:
+      - '&f您可以免除摔伤并且飞行'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+  'group_3svip':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 7
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&eSSSVIP 等级'
+    lore:
+      - '&f您可以查询服务器任意历史记录'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.3svip
+  'group_3svip_d':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7SSSVIP 等级&4（未激活）'
+    lore:
+      - '&f您可以查询服务器任意历史记录'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+#==================================================
+#======================默认权限=======================
+#==================================================
+  'kit_day_a':
+    material: COPPER_INGOT
+    slot: 9
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f普通礼包'
+    lore:
+      - '&7冷却时间: &f22 小时'
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: string equals
+          input: '%essentials_kit_is_available_day%'
+          output: 'yes'
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.day
+    left_click_commands:
+      - '[player] kit day'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'kit_day_u':
+    material: BRICK
+    slot: 9
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&c普通礼包'
+    lore:
+      - '&7这个礼包现在冷却!'
+      - '&7您需要等待 : &f%essentials_kit_time_until_available_day%'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.day
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'warp_spawn':
+    material: GRASS_BLOCK
+    slot: 18
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&a回到主城'
+    lore:
+      - '&7单击回到主城'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] warp spawn'
+  'warp_w_nether':
+    material: NETHERRACK
+    slot: 27
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&a前往地狱中央区'
+    lore:
+      - '&7单击前往地狱中央区'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] warp w_nether'
+  'warp_w_end':
+    material: END_STONE
+    slot: 36
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&a前往末地中央区'
+    lore:
+      - '&7单击前往末地中央区'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] warp w_end'
+  'sit_a':
+    material: SCAFFOLDING
+    slot: 45
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&6 动作：坐下'
+    lore:
+      - '&7单击原地坐下'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] sit'
+
+#==================================================
+#=======================vip1========================
+#==================================================
+  'kit_dayvip1_a':
+    material: IRON_INGOT
+    slot: 10
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP1礼包'
+    lore:
+      - '&7冷却时间: &f22 小时'
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: string equals
+          input: '%essentials_kit_is_available_dayvip1%'
+          output: 'yes'
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip1
+    left_click_commands:
+      - '[player] kit dayvip1'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'kit_dayvip1_u':
+    material: BRICK
+    slot: 10
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&cVIP1礼包'
+    lore:
+      - '&7这个礼包现在冷却!'
+      - '&7您需要等待 : &f%essentials_kit_time_until_available_dayvip1%'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip1
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'kit_dayvip1_f':
+    material: NETHER_BRICK
+    slot: 10
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP1礼包'
+    lore:
+      - '&c您没有权限取得此礼包！'
+      - '&7要取得此礼包，您应当至少为VIP1等级'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'restp_a':
+    material: PISTON
+    slot: 19
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&b打开公共建筑快捷菜单'
+    lore:
+      - '&f菜单内容不定时更新'
+      - '&f需要上榜请联系管理员'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] em'
+#==================================================
+#=======================vip2========================
+#==================================================
+  'kit_dayvip2_a':
+    material: IRON_INGOT
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP2礼包'
+    lore:
+      - '&7冷却时间: &f22 小时'
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: string equals
+          input: '%essentials_kit_is_available_dayvip2%'
+          output: 'yes'
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip2
+    left_click_commands:
+      - '[player] kit dayvip2'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'kit_dayvip2_u':
+    material: BRICK
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&cVIP2礼包'
+    lore:
+      - '&7这个礼包现在冷却!'
+      - '&7您需要等待 : &f%essentials_kit_time_until_available_dayvip2%'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip2
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'kit_dayvip2_f':
+    material: NETHER_BRICK
+    slot: 11
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP2礼包'
+    lore:
+      - '&c您没有权限取得此礼包！'
+      - '&7要取得此礼包，您应当至少为VIP2等级'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'coi_a':
+    material: CHEST
+    slot: 20
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&b开启\关闭 容器记录和方块操作查询器'
+    lore:
+      - '&f左键单击开启或关闭功能 '
+      - '&7对应命令/co i'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip2
+    left_click_commands:
+      - '[player] co i'
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'coi_u':
+    material: TRAPPED_CHEST
+    slot: 20
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7开启\关闭 容器记录和方块操作查询器'
+    lore:
+      - '&c您没有权限使用查询器！'
+      - '&f要使用此功能，您应当至少为VIP2等级'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'egg_a':
+    material: EGG
+    slot: 29
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&e鸡蛋！'
+    lore:
+      - '&f单击获得四枚鸡蛋'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[console] give %player_name% egg 4'
+#==================================================
+#=======================vip3========================
+#==================================================
+  'kit_dayvip3_a':
+    material: IRON_INGOT
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP3礼包'
+    lore:
+      - '&7冷却时间: &f22 小时'
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: string equals
+          input: '%essentials_kit_is_available_dayvip3%'
+          output: 'yes'
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip3
+    left_click_commands:
+      - '[player] kit dayvip3'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'kit_dayvip3_u':
+    material: BRICK
+    slot: 12
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&cVIP3礼包'
+    lore:
+      - '&7这个礼包现在冷却!'
+      - '&7您需要等待 : &f%essentials_kit_time_until_available_dayvip3%'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip3
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'kit_dayvip3_f':
+    material: NETHER_BRICK
+    slot: 12
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP3礼包'
+    lore:
+      - '&c您没有权限取得此礼包！'
+      - '&7要取得此礼包，您应当至少为VIP3等级'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'wb_a':
+    material: CRAFTING_TABLE
+    slot: 21
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&a随身工作台'
+    lore:
+      - '&7单击使用随身工作台（对应命令/wb)'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip3
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] wb'
+  'wb_u':
+    material: DARK_OAK_PLANKS
+    slot: 21
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7随身工作台'
+    lore:
+      - '&c您没有权限使用此功能!'
+      - '&f要使用此随身工作台，您需要达到VIP3!'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound]  ENTITY_VILLAGER_NO'
+  'crawl_a':
+    material: RED_CARPET
+    slot: 48
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&6 动作：趴下'
+    lore:
+      - '&7单击原地趴下'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip3
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] crawl'
+  'crawl_u':
+    material: BLACK_CARPET
+    slot: 48
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6 动作：趴下'
+    lore:
+      - '&c您没有权限使用此动作!'
+      - '&f要使用此动作，您需要达到VIP3!'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound]  ENTITY_VILLAGER_NO'
+#==================================================
+#=======================vip4========================
+#==================================================
+  'kit_dayvip4_a':
+    material: IRON_INGOT
+    slot: 13
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP4礼包'
+    lore:
+      - '&7冷却时间: &f22 小时'
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: string equals
+          input: '%essentials_kit_is_available_dayvip4%'
+          output: 'yes'
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip4
+    left_click_commands:
+      - '[player] kit dayvip4'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'kit_dayvip4_u':
+    material: BRICK
+    slot: 13
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&cVIP4礼包'
+    lore:
+      - '&7这个礼包现在冷却!'
+      - '&7您需要等待 : &f%essentials_kit_time_until_available_dayvip4%'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip4
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'kit_dayvip4_f':
+    material: NETHER_BRICK
+    slot: 13
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP4礼包'
+    lore:
+      - '&c您没有权限取得此礼包！'
+      - '&7要取得此礼包，您应当至少为VIP4等级'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'ec_a':
+    material: ENDER_CHEST
+    slot: 22
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&a随身末影箱'
+    lore:
+      - '&7单击使用随身末影箱（对应命令/ec)'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip4
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] ec'
+  'ec_u':
+    material: OBSIDIAN
+    slot: 22
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7随身末影箱'
+    lore:
+      - '&c您没有权限使用此功能!'
+      - '&f要使用随身末影箱，您需要达到VIP4!'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound]  ENTITY_VILLAGER_NO'
+
+  'lay_a':
+    material: RED_BED
+    slot: 49
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&6 动作：躺下'
+    lore:
+      - '&7单击原地躺下'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.vip4
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] lay'
+  'lay_u':
+    material: BLACK_BED
+    slot: 49
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6 动作：躺下'
+    lore:
+      - '&c您没有权限使用此动作!'
+      - '&f要使用此动作，您需要达到VIP4!'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound]  ENTITY_VILLAGER_NO'
+#==================================================
+#=======================vip5========================
+#==================================================
+  'kit_dayvip5_a':
+    material: IRON_INGOT
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP5礼包'
+    lore:
+      - '&7冷却时间: &f22 小时'
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: string equals
+          input: '%essentials_kit_is_available_dayvip5%'
+          output: 'yes'
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip5
+    left_click_commands:
+      - '[player] kit dayvip5'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'kit_dayvip5_u':
+    material: BRICK
+    slot: 14
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&cVIP5礼包'
+    lore:
+      - '&7这个礼包现在冷却!'
+      - '&7您需要等待 : &f%essentials_kit_time_until_available_dayvip5%'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip5
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  'kit_dayvip5_f':
+    material: NETHER_BRICK
+    slot: 14
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP5礼包'
+    lore:
+      - '&c您没有权限取得此礼包！'
+      - '&7要取得此礼包，您应当至少为VIP4等级'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+
+#==================================================
+#=======================svip========================
+#==================================================
+  'kit_daysvip_a':
+    material: GOLD_INGOT
+    slot: 15
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&bSVIP礼包'
+    lore:
+      - '&7冷却时间: &f22 小时'
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: string equals
+          input: '%essentials_kit_is_available_daysvip%'
+          output: 'yes'
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.daysvip
+    left_click_commands:
+      - '[player] kit daysvip'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'kit_daysvip_u':
+    material: BRICK
+    slot: 15
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&cSVIP礼包'
+    lore:
+      - '&7这个礼包现在冷却!'
+      - '&7您需要等待 : &f%essentials_kit_time_until_available_daysvip%'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.daysvip
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+
+  'kit_daysvip_f':
+    material: NETHER_BRICK
+    slot: 15
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&bSVIP礼包'
+    lore:
+      - '&c您没有权限取得此礼包！'
+      - '&7要取得此礼包，您应当至少为SVIP等级'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+
+  'fly_a':
+    material: ELYTRA
+    slot: 24
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&b开启\关闭生存飞行'
+    lore:
+      - '&7单击开启\关闭生存飞行（对应命令/fly)'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.svip
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] fly'
+  'fly_u':
+    material: PHANTOM_MEMBRANE
+    slot: 24
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7单击开启\关闭生存飞行'
+    lore:
+      - '&c您没有权限使用此功能!'
+      - '&f要使用生存飞行，您需要达到SVIP!'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound]  ENTITY_VILLAGER_NO'
+
+#==================================================
+#=======================3svip========================
+#==================================================
+  'kit_day3svip_a':
+    material: DIAMOND
+    slot: 16
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&e3SVIP礼包'
+    lore:
+      - '&7冷却时间: &f22 小时'
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: string equals
+          input: '%essentials_kit_is_available_day3svip%'
+          output: 'yes'
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.daysvip
+    left_click_commands:
+      - '[player] kit day3svip'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'kit_day3svip_u':
+    material: BRICK
+    slot: 16
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&c3SVIP礼包'
+    lore:
+      - '&7这个礼包现在冷却!'
+      - '&7您需要等待 : &f%essentials_kit_time_until_available_day3svip%'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.day3svip
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+
+  'kit_day3svip_f':
+    material: NETHER_BRICK
+    slot: 16
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&e3SVIP礼包'
+    lore:
+      - '&c您没有权限取得此礼包！'
+      - '&7要取得此礼包，您应当至少为3SVIP等级'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+#==================================================
+#=======================通用========================
+#==================================================
+
+  'baltop':
+    material: EMERALD
+    slot: 17
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&e服务器补偿和公告邮件'
+    lore:
+      - '&7单击打开服务器补偿和公告邮件页面'
+      - '&f您的账户中还有: &e %vault_eco_balance%'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] tianyumailbox'
+
+
+  'ah_a':
+    material: EMERALD_BLOCK
+    slot: 26
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&a自由市场'
+    lore:
+      - '&f单击打开自由市场（对应命令\ah）'
+      - '&f手持物品，使用&a/ah sell 价格&f出售'
+      - '&f例如手持泥土64个'
+      - '&f使用&a/ah sell 100 &f可出售该组泥土'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: javascript
+          expression: '%miraimc_bindqq% != 0'
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[console] ah menu %player_name%'
+  'ah_u':
+    material: RED_SHULKER_BOX
+    slot: 26
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&a自由市场'
+    lore:
+      - '&c您不能使用自由市场！'
+      - '&c请先完成账户唯一性验证！'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+
+  'afk_a':
+    material: SHIELD
+    slot: 35
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&b 启动挂机保护'
+    lore:
+      - '&f单击启动挂机保护（对应命令/afk）'
+      - '&f原地跳跃或发消息、发命令解除保护'
+      - '&c！水平移动和转动视角不能解除保护！'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] afk'
+
+  'bigmap':
+    material: MAP
+    slot: 44
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&b服务器大地图'
+    lore:
+      - '&7单击展示链接'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[message] &a天雨镇服务器大地图（可单击打开）yxgeneral.cn:8123'
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'sub_a':
+    material: GOLD_BLOCK
+    slot: 53
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&e2022.9 月度副城：繁花镇'
+    lore:
+      - '&f单击前往'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] warp sub'

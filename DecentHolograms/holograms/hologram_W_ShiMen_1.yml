@@ -1,0 +1,35 @@
+﻿location: world:316.387:66.845:-300.621
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b========东方========'
+    height: 0.3
+  - content: '&b石门东路'
+    height: 0.3
+  - content: '繁花镇 &a2425m'
+    height: 0.3
+  - content: '&b========北方========'
+    height: 0.3
+  - content: '&b石门西路'
+    height: 0.3
+  - content: 'Gra_dus之家 &a1124m'
+    height: 0.3
+  - content: '&b========西南方========'
+    height: 0.3
+  - content: '&b石门路、天雨镇内部道路'
+    height: 0.3
+  - content: '天雨镇 &a330m'
+    height: 0.3
+  - content: '层岩镇 &a434m'
+    height: 0.3
+  - content: '山心镇 &a714m'
+    height: 0.3
+  - content: '凤凰城 &a1138m'
+    height: 0.3
+
+  actions: {}

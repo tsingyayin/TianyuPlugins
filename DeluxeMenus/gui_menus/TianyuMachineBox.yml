@@ -1,0 +1,370 @@
+﻿#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&8> &b天雨镇公共设施快捷菜单'
+open_command:
+  - tianyumachinebox
+  - em
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 54
+# as always, only cool people can open this menu :)
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: tianyu.default
+      deny_commands:
+        - "[message] &8[&bDeluxe&eMenus&8] &cYou don't have perms for this!"
+items:
+  'normal':
+    material: ZOMBIE_SPAWN_EGG
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f综合刷怪塔'
+    lore:
+      - '&d提供者：&bYi_Zhi_Xin_Yu, wdnmd1984, bbb'
+      - '&d领地位置：&espawn.chenxi.mobplatform'
+      - '&d领地宣称：&e天雨镇 晨夕镇区 综合刷怪塔'
+      - '&d领地产出：&a腐肉，线，骨头，箭矢，糖，火药'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp spawn.chenxi.mobplatform'
+  'iron4x':
+    material: IRON_BLOCK
+    slot: 1
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f四核刷铁机'
+    lore:
+      - '&d提供者：&bTsingYayin'
+      - '&d领地位置：&espawn.chenxi.iron'
+      - '&d领地宣称：&e天雨镇 晨夕镇区 四核刷铁机'
+      - '&d领地产出：&a铁锭，小红花'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp spawn.chenxi.iron'
+  'cobblestone_y':
+    material: COBBLESTONE
+    slot: 2
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f竖式刷石机'
+    lore:
+      - '&d提供者：&bbbb'
+      - '&d领地位置：&espawn.chenxi.stonehub'
+      - '&d领地宣称：&e天雨镇 晨夕镇区 竖式刷石机仓库'
+      - '&d领地产出：&a圆石'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp spawn.chenxi.stonehub'
+  'explode_tree':
+    material: OAK_SAPLING
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f爆炸式树场'
+    lore:
+      - '&d提供者：&bwdnmd1984, red_scarf'
+      - '&d领地位置：&espawn.chenxi.tree'
+      - '&d领地宣称：&e天雨镇 晨夕镇区 炸树场'
+      - '&d领地产出：&a小型树原木'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp spawn.chenxi.tree'
+  'nishita':
+    material: TRIDENT
+    slot: 4
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f溺尸塔'
+    lore:
+      - '&d提供者：&bDav7d_Liang, bbb'
+      - '&d领地位置：&enishita'
+      - '&d领地宣称：&e伊比利亚渔村 溺尸塔'
+      - '&d领地产出：&a腐肉，铜锭，三叉戟(根本没有)'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp nishita'
+  'moyuta':
+    material: INK_SAC
+    slot: 5
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f墨鱼塔'
+    lore:
+      - '&d提供者：&bDav7d_Liang'
+      - '&d领地位置：&emoyuta'
+      - '&d领地宣称：&e伊比利亚渔村 墨鱼塔'
+      - '&d领地产出：&a墨囊'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp moyuta'
+  'ehunta':
+    material: GHAST_TEAR
+    slot: 6
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f双维恶魂塔（下界部分）'
+    lore:
+      - '&d提供者：&bDav7d_Liang'
+      - '&d领地位置：&eehunta'
+      - '&d领地宣称：&e下界 恶魂刷新塔'
+      - '&d领地产出：&a（挂机部分不产出）'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp ehunta'
+  'ehunta_2':
+    material: GHAST_TEAR
+    slot: 7
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f双维恶魂塔（主世界部分）'
+    lore:
+      - '&d提供者：&bDav7d_Liang'
+      - '&d领地位置：&eshua'
+      - '&d领地宣称：&e无村镇 恶魂处理塔'
+      - '&d领地产出：&a火药，恶魂之泪'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp shua'
+  'kedu':
+    material: GOLD_BLOCK
+    slot: 8
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f双维猪人塔（主世界部分）'
+    lore:
+      - '&d提供者：&bbbb'
+      - '&d领地位置：&ekedu'
+      - '&d领地宣称：&e无村镇 猪人处理塔'
+      - '&d领地产出：&a金粒、金锭、金块'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp kedu'
+  'kedu_1':
+    material: GOLD_BLOCK
+    slot: 9
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f双维猪人塔（下界部分）'
+    lore:
+      - '&d提供者：&bbbb'
+      - '&d领地位置：&ekedu_1'
+      - '&d领地宣称：&e下界 猪人刷新塔'
+      - '&d领地产出：&a（挂机部分不产出）'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp kedu_1'
+  'ranliao_lieyan':
+    material: BLAZE_ROD
+    slot: 10
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f烈焰人塔'
+    lore:
+      - '&d提供者：&bDav7d_Liang'
+      - '&d领地位置：&eranliao.lieyan'
+      - '&d领地宣称：&e下界 烈焰人塔'
+      - '&d领地产出：&a烈焰棒'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp ranliao.lieyan'
+  'ranliao':
+    material: PEARLESCENT_FROGLIGHT
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f蛙明灯农场'
+    lore:
+      - '&d提供者：&bDav7d_Liang'
+      - '&d领地位置：&eranliao'
+      - '&d领地宣称：&e下界 蛙明灯农场'
+      - '&d领地产出：&a珠光（淡紫）蛙明灯'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp ranliao'
+  'zhurou':
+    material: COOKED_PORKCHOP
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f猪肉塔'
+    lore:
+      - '&d提供者：&bDav7d_Liang'
+      - '&d领地位置：&ezhurou'
+      - '&d领地宣称：&e下界 疣猪兽塔'
+      - '&d领地产出：&a熟猪排，皮革'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp zhurou'
+  'xht':
+    material: ENDER_PEARL
+    slot: 13
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f小黑塔'
+    lore:
+      - '&d提供者：&bMu_Xue'
+      - '&d领地位置：&exht'
+      - '&d领地宣称：&e末地 小黑塔'
+      - '&d领地产出：&a末影珍珠，经验'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp xht'
+  'dlkl':
+    material: WITHER_SKELETON_SKULL
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f二维凋零骷髅塔（下界部分）'
+    lore:
+      - '&d提供者：&bbbb'
+      - '&d领地位置：&edlkl'
+      - '&d领地宣称：&e地狱 凋零骷髅塔'
+      - '&d领地产出：&a（挂机部分不产出）'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp dlkl'
+  'tou':
+    material: WITHER_SKELETON_SKULL
+    slot: 15
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f二维凋零骷髅塔（主世界部分）'
+    lore:
+      - '&d提供者：&bbbb'
+      - '&d领地位置：&etou'
+      - '&d领地宣称：&e无村镇 凋零骷髅塔仓库'
+      - '&d领地产出：&a煤炭，骨头，凋零骷髅头颅'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp tou'

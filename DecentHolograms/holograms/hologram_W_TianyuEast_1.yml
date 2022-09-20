@@ -1,0 +1,36 @@
+﻿location: world:657.001:90.3000:-210.708
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b========东南方========'
+    height: 0.3
+  - content: '&b夏天路'
+    height: 0.3
+  - content: '洛天依 夏日Ver 大型模型 &a291.5m'
+    height: 0.3
+  - content: '&b========北方========'
+    height: 0.3
+  - content: '&b天繁旧道'
+    height: 0.3
+  - content: '繁花镇 &a2399m'
+    height: 0.3
+  - content: '&b========西南方========'
+    height: 0.3
+  - content: '&b天繁旧道'
+    height: 0.3
+  - content: '天雨镇 &a420m'
+    height: 0.3
+  - content: '层岩镇 &a597m'
+    height: 0.3
+  - content: '山心镇 &a998m'
+    height: 0.3
+  - content: '凤凰城 &a1158m'
+    height: 0.3
+  - content: '&b天谷旧道、梦昇路'
+    height: 0.3
+  actions: {}

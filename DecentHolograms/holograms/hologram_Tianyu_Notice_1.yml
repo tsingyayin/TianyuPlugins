@@ -1,0 +1,30 @@
+﻿location: world:293:70:14
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e请新人账户先完成&b账号唯一性验证&e!'
+    height: 0.6
+  - content: '使用命令&b/link2qq bind QQ号'
+    height: 0.3
+  - content: '将生成的文本（形如&e"确认绑定 用户名 验证码"&f）单击复制到输入板'
+    height: 0.3
+  - content: '再按下&eCtrl+A&a全选文本&f、&eCtrl+C&a复制文本&f，并发送到社区群'
+    height: 0.3
+  - content: '以完成唯一性验证，否则&c您将不能圈地、使用自由市场、获得维护补偿！'
+    height: 0.3
+  - content: '也可以在社区群直接发送文本&b添加绑定 游戏内用户名&f（例如&b添加绑定 TsingYayin&f）'
+    height: 0.3
+  - content: '等待&b天雨姬&f自动回复验证命令，再将其复制，在游戏内按下&eCtrl+V&a粘贴文本&f并发送命令'
+    height: 0.3
+  - content: '以完成验证。手机用户推荐使用此方式，游戏内粘贴可以用手机输入法的粘贴功能完成。'
+    height: 0.3
+  - content: 'Mac用户快捷键和上述类似，但应该把&eCtrl键&f替换成&eCommand键。'
+    height: 0.3
+  - content: 'QQ解绑换绑、账户充值等请私信群管理“万维工作室”'
+    height: 0.3
+  actions: {}

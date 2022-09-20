@@ -1,0 +1,33 @@
+﻿location: world:258.238:70.000:127.756
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b天雨镇抽卡非酋欧皇榜（手动更新）'
+    height: 0.3
+  - content: '&e=================================='
+    height: 0.3
+  - content: '&d非酋榜'
+    height: 0.3
+  - content: '&e排名 &f次数 &b玩家名称'
+    height: 0.3
+  - content: '&e1st &f96 &bTsingYayin'
+    height: 0.3
+  - content: '&62nd &f92 &bDav7d_Liang'
+    height: 0.3
+  - content: '&d欧皇榜'
+    height: 0.3
+  - content: '&e排名 &f次数 &b玩家名称'
+    height: 0.3
+  - content: '&e1st &f1 &bqyjy'
+    height: 0.3
+
+  - content: '&e=================================='
+    height: 0.3
+  - content: '上述数据以管理员依据服务器后台统计结果为准。'
+    height: 0.3
+  actions: {}

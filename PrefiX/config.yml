@@ -1,0 +1,54 @@
+﻿# +---------------------------------------------------------------------------------------------------------+ #
+# For the descriptions for each setting check spigot: https://www.spigotmc.org/resources/prefix.70359/        #
+# Made by martijnpu                                                                                           #
+# +---------------------------------------------------------------------------------------------------------+ #
+
+prefix:
+  # Here you can set the maximum length of the Prefix WITHOUT color characters
+  max-length: 16
+
+  # Here you can set the characters before and after the prefix
+  # You can include color codes here (&.), can also left blanked ("")
+  # For Example if you want the following ingame: "[Admin] martijnpu"
+  # start-character: "["
+  # end-character: "]"
+  start-character: "["
+  end-character: "]"
+
+  bracket:
+    # Define here the option to let people change their bracket color specifically
+    # If disabled brackets will always have the same color as the prefix
+    enable: false
+
+    # Define here the color the start-character and end-character should be when a player has a custom Prefix
+    # You can include color codes here (&.), can also left blanked ("")
+    # Setting this value other than blanked will disable the custom bracket functionality
+    # For Example if you want white brackets with a custom prefix: "&f"
+    change-color: ""
+
+suffix:
+  # Here you can set the maximum length of the Prefix WITHOUT color characters
+  max-length: 8
+
+  # Here you can set the characters before and after the suffix
+  # You can include color codes here (&.), can also left blanked ("")
+  # For Example if you want the following ingame: "martijnpu <suffix>"
+  # start-character: " <"
+  # end-character: ">"
+  start-character: "<"
+  end-character: ">"
+
+general:
+  # Define here the characters you want to allow
+  # Check for the full list: https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+  whitelist:
+    - "\\w" #Alphabetic characters
+    - "\\p{Punct}" #Punctuation characters
+    - "\\p{IsHan}" #Chinese characters
+  #  - "♡⌘€" # Allow specific symbols
+
+  # Here you can specify any characters or words whose are blocked.
+  # Blacklist is NOT Case Sensitive
+  # Can be left blank ( "[]" )
+  blacklist:
+    - "fuck"

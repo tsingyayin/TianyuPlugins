@@ -1,0 +1,386 @@
+Version: 1
+Seed: 1034575559727887034
+Messages:
+  1:
+    LeaveMessage: 您正在离开 %residence.
+    EnterMessage: 欢迎来到 %residence, 拥有者 %owner。
+  2:
+    LeaveMessage: Now leaving %residence.
+    EnterMessage: Welcome %player to %residence, owned by %owner.
+  3:
+    LeaveMessage: 您正在离开末地主岛保护区域
+    EnterMessage: 欢迎来到末地主岛
+Flags:
+  1:
+    container: true
+    ignite: true
+    move: true
+    harvest: true
+    shear: true
+    use: true
+    destroy: true
+    animalkilling: true
+    trade: true
+    mobkilling: true
+    build: true
+    vehicledestroy: true
+    leash: true
+  2:
+    container: false
+    ignite: false
+    use: false
+    animalkilling: false
+    bank: false
+    hook: false
+    explode: true
+    witherdestruction: true
+    vehicledestroy: false
+    harvest: false
+    witherdamage: true
+    shear: false
+    firespread: false
+    destroy: false
+    pvp: false
+    build: false
+    chat: false
+    fallinprotection: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    glow: true
+    creeper: false
+  3:
+    container: true
+    move: true
+    harvest: true
+    shear: true
+    use: true
+    destroy: true
+    animalkilling: true
+    beacon: true
+    mobkilling: true
+    build: true
+    tp: true
+    leash: true
+  4:
+    container: true
+    move: true
+    harvest: true
+    shear: true
+    use: true
+    destroy: true
+    admin: true
+    animalkilling: true
+    beacon: true
+    mobkilling: true
+    build: true
+    tp: true
+    leash: true
+  5:
+    container: true
+    ignite: false
+    damage: false
+    use: false
+    animalkilling: false
+    bank: false
+    hook: false
+    explode: true
+    witherdestruction: false
+    vehicledestroy: false
+    harvest: false
+    witherdamage: true
+    shear: false
+    firespread: false
+    destroy: false
+    monsters: true
+    pvp: false
+    lever: true
+    mobkilling: true
+    build: false
+    chat: false
+    fallinprotection: false
+    witherspawn: true
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: false
+    glow: true
+    creeper: false
+  6:
+    container: true
+    move: true
+    harvest: true
+    shear: true
+    use: true
+    destroy: true
+    animalkilling: true
+    beacon: true
+    mobkilling: true
+    build: true
+    chat: true
+    tp: true
+  7:
+    container: false
+    ignite: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    hook: false
+    build: false
+    explode: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    creeper: false
+  8:
+    container: false
+    ignite: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    bank: false
+    hook: false
+    build: false
+    chat: false
+    explode: false
+    fallinprotection: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    glow: true
+    creeper: false
+  9:
+    container: true
+    bed: true
+    door: true
+    ignite: true
+    use: true
+    craft: true
+    riding: true
+    animalkilling: false
+    button: true
+    hook: true
+    explode: true
+    cake: true
+    witherdestruction: false
+    vehicledestroy: true
+    shoot: true
+    place: true
+    burn: true
+    harvest: false
+    witherdamage: false
+    shear: true
+    firespread: false
+    destroy: true
+    pvp: false
+    lever: true
+    build: true
+    dragongrief: false
+    enchant: true
+    diode: true
+    witherspawn: false
+    tnt: true
+    snowball: true
+    leash: true
+    pistonprotection: true
+    tp: true
+    glow: true
+    creeper: false
+  10:
+    container: false
+    ignite: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    hook: false
+    build: false
+    falldamage: false
+    explode: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    creeper: false
+  11:
+    container: true
+    ignite: false
+    use: false
+    animalkilling: false
+    healing: true
+    bank: false
+    hook: false
+    explode: false
+    witherdestruction: false
+    cmonsters: true
+    vehicledestroy: false
+    nmonsters: true
+    chorustp: false
+    harvest: false
+    witherdamage: true
+    shear: false
+    nanimals: true
+    firespread: false
+    destroy: false
+    monsters: true
+    pvp: false
+    enderpearl: true
+    build: false
+    chat: false
+    fallinprotection: false
+    witherspawn: true
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    glow: true
+    smonsters: true
+    creeper: false
+Residences:
+  dl:
+    TPLoc: 318.5:29.06:-344.13:47.55:5.89
+    Messages: 1
+    BlockSellPrice: 0.3
+    Subzones:
+      boom:
+        Messages: 1
+        ChannelColor: Dark_Purple
+        Permissions:
+          PlayerFlags:
+            5f4f9612-b878-3a54-ae59-416da286e223: 1
+          AreaFlags: 2
+          OwnerUUID: 5f4f9612-b878-3a54-ae59-416da286e223
+          OwnerLastKnownName: bbb
+        CreatedOn: 1660984435091
+        Areas:
+          boom: 317:32:-336:319:32:-336
+    ChannelColor: Dark_Purple
+    Permissions:
+      PlayerFlags:
+        072df16e-6341-3d21-b424-a1dc18b7866b: 3
+        5f4f9612-b878-3a54-ae59-416da286e223: 1
+        37cfa081-6a79-39dc-a45c-c863ae29e9ea: 4
+      AreaFlags: 5
+      OwnerUUID: 5f4f9612-b878-3a54-ae59-416da286e223
+      OwnerLastKnownName: bbb
+    CreatedOn: 1660983096198
+    Areas:
+      main: 301:0:-352:335:255:-321
+  red_end:
+    TPLoc: 63.5:68.0:134.5:0.0:0.0
+    Messages: 2
+    BlockSellPrice: 0.3
+    ChannelColor: Dark_Purple
+    Permissions:
+      PlayerFlags:
+        9d0fcde8-6eee-35e2-9694-1ff14706452a: 6
+        69f9e0ab-1043-3b53-b64c-454a6fd823d1: 6
+        b07bfeaf-8e04-3f84-81f1-ef2106dd7efc: 1
+      AreaFlags: 7
+      OwnerUUID: b07bfeaf-8e04-3f84-81f1-ef2106dd7efc
+      OwnerLastKnownName: red_scarf
+    CreatedOn: 1656415225176
+    Areas:
+      main: 45:0:116:80:255:151
+  SCP_working:
+    TPLoc: -73.5:63.0:-125.5:0.0:0.0
+    Messages: 1
+    BlockSellPrice: 0.3
+    ChannelColor: Dark_Purple
+    Permissions:
+      PlayerFlags:
+        1ef9db48-ec66-358b-8a8f-ce7bd9fb0cd7: 1
+      AreaFlags: 8
+      OwnerUUID: 1ef9db48-ec66-358b-8a8f-ce7bd9fb0cd7
+      OwnerLastKnownName: TsingYayin
+    CreatedOn: 1661178564912
+    Areas:
+      main: -90:0:-152:-59:255:-101
+  w_end:
+    TPLoc: 10.5:65.0:10.5:0.0:0.0
+    Messages: 3
+    BlockSellPrice: 0.3
+    ChannelColor: Dark_Purple
+    Permissions:
+      PlayerFlags:
+        1ef9db48-ec66-358b-8a8f-ce7bd9fb0cd7: 1
+      AreaFlags: 9
+      OwnerUUID: 00000000-0000-0000-0000-000000000000
+      OwnerLastKnownName: Server_Land
+    CreatedOn: 1656415459540
+    Areas:
+      main: -83:0:-76:86:255:90
+  xh:
+    TPLoc: 245.7:0.5:0.39:40.7:93.68
+    Messages: 2
+    BlockSellPrice: 0.3
+    ChannelColor: Dark_Purple
+    Permissions:
+      PlayerFlags:
+        b07bfeaf-8e04-3f84-81f1-ef2106dd7efc: 1
+      AreaFlags: 10
+      OwnerUUID: b07bfeaf-8e04-3f84-81f1-ef2106dd7efc
+      OwnerLastKnownName: red_scarf
+    CreatedOn: 1656236749068
+    Areas:
+      main: 245:0:-1:247:255:1
+  xht:
+    TPLoc: -245.42:38.06:-23.46:85.54:-90.35
+    Messages: 1
+    BlockSellPrice: 0.3
+    ChannelColor: Dark_Purple
+    Permissions:
+      PlayerFlags:
+        1cf6db5d-5c95-3732-ac6b-1fa73de58f4e: 3
+        243b1a65-b1d3-35ce-856e-cbe24db899da: 1
+      AreaFlags: 8
+      OwnerUUID: 243b1a65-b1d3-35ce-856e-cbe24db899da
+      OwnerLastKnownName: Mu_Xue
+    CreatedOn: 1660917960674
+    Areas:
+      main: -286:0:-46:-243:255:-2
+  Yi_dlmg:
+    TPLoc: 1180.3:25.0:509.44:32.55:84.75
+    Messages: 2
+    BlockSellPrice: 0.3
+    Subzones:
+      '2':
+        TPLoc: 1182.81:148.0:509.22:64.5:88.65
+        Messages: 2
+        ChannelColor: Dark_Purple
+        Permissions:
+          PlayerFlags:
+            69f9e0ab-1043-3b53-b64c-454a6fd823d1: 1
+          AreaFlags: 8
+          OwnerUUID: 69f9e0ab-1043-3b53-b64c-454a6fd823d1
+          OwnerLastKnownName: Yi_Zhi_Xin_Yu
+        CreatedOn: 1659519180748
+        Areas:
+          '2': 1181:147:508:1183:150:510
+    ChannelColor: Dark_Purple
+    Permissions:
+      PlayerFlags:
+        69f9e0ab-1043-3b53-b64c-454a6fd823d1: 1
+      AreaFlags: 11
+      OwnerUUID: 69f9e0ab-1043-3b53-b64c-454a6fd823d1
+      OwnerLastKnownName: Yi_Zhi_Xin_Yu
+    CreatedOn: 1659516335672
+    Areas:
+      main: 1172:0:505:1194:255:513

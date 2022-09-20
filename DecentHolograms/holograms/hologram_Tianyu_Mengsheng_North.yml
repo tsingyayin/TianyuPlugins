@@ -1,0 +1,34 @@
+﻿location: world:300:69.20:11
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c当前位置：&d天雨镇 梦昇桥区 梦昇桥'
+    height: 0.4
+  - content: '&b========向北========'
+    height: 0.3
+  - content: '天雨镇 晨风工业区 &a253.6m'
+    height: 0.3
+  - content: '洛天依 夏日Ver  大型模型 &a607m'
+    height: 0.3
+  - content: '天雨镇 山心镇区 &a610m'
+    height: 0.3
+  - content: 'Gra_dus之家 &a1410m'
+    height: 0.3
+  - content: '繁花镇 &a2721m'
+    height: 0.3
+  - content: '&b========向南========'
+    height: 0.3
+  - content: '天雨镇 层岩镇区 &a177m'
+    height: 0.3
+  - content: '凤凰城 &a827m'
+    height: 0.3
+  - content: '伊比利亚渔村 &a5328.6m'
+    height: 0.3
+  - content: '星见镇和西风工业区 &a6183.6m'
+    height: 0.3
+  actions: {}

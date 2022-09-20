@@ -1,0 +1,85 @@
+﻿#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&8> &b天雨镇管理员快捷菜单'
+#register_command: true
+open_command:
+  - tianyuopbox
+  - eop
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 54
+# as always, only cool people can open this menu :)
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: tianyu.sa
+      deny_commands:
+        - "[message] &8[&bDeluxe&eMenus&8] &cYou don't have perms for this!"
+items:
+  'server_close':
+    material: BARRIER
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c关闭服务器'
+    lore:
+      - '&f单击关闭服务器'
+    left_click_commands:
+      - '[player] kickall 服务器维护准备中'
+      - '[player] mirai sendgroupmessage 2835190581 905744768 小睡一会，稍后见【服务器停机维护开始】'
+      - '[player] stop'
+  'server_sakura':
+    material: PINK_GLAZED_TERRACOTTA
+    slot: 1
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&d向樱花镇卖萌'
+    lore:
+      - '&f单击喜提隔壁群封禁）'
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] mirai sendgroupmessage 2835190581 716518599 ヾ(◍°∇°◍)ﾉﾞ'
+  'server_whitelist_on':
+    material: WHITE_WOOL
+    slot: 2
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c启动白名单维护'
+    lore:
+      - '&f单击启动白名单系统'
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] mirai sendgroupmessage 2835190581 905744768 休息一会，稍后见【服务器非停机维护开始】'
+      - '[player] kickall 服务器准备非停机维护中'
+      - '[player] whitelist on'
+  'server_whitelist_off':
+    material: GLASS
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c关闭白名单维护'
+    lore:
+      - '&f单击关闭白名单系统'
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] mirai sendgroupmessage 2835190581 905744768 get！٩( "ω" )و 【服务器非停机维护结束】'
+      - '[player] whitelist off'
+  'server_test_button':
+    material: BEDROCK
+    slot: 4
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&a权限授予测试器'
+    lore:
+      - '&f————'
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[console] lp user %player_name% permission settemp prefix.30.[TEST] true 180d'
+
+
