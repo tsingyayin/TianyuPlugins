@@ -7,9 +7,9 @@
   # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
   CrateType: CSGO
   # Name of the Inventory if a GUI crate.
-  CrateName: '&d武器池 &c[勿忘我]'
+  CrateName: '&d武器池 &c[叙拉古余晖]'
   # The name of the inventory that will be in the preview GUI.
-  Preview-Name: '&d武器池 &c[勿忘我]'
+  Preview-Name: '&d武器池 &c[叙拉古余晖]'
   # Starting amount of keys when the player 1st joins.
   StartingKeys: 0
   # If the crate shows in the /cc GUI.
@@ -20,7 +20,7 @@
   # Enables/Disables the Broadcasts message when they open a crate.
   OpeningBroadCast: true
   # Message that is broadcast when opening the crate.
-  BroadCast: '%Prefix%&f%Player%&r &7正在捞取 &d武器池 &c[勿忘我]&7.'
+  BroadCast: '%Prefix%&f%Player%&r &7正在捞取 &d武器池 &c[叙拉古余晖]&7.'
   # Item the crate is in the GUI
   Item: 'CHEST'
   # If the crate in the main /cc GUI is glowing or not.
@@ -65,22 +65,21 @@
     Height: 2.6
     # The message that will be displayed.
     Message:
-      - '&d&l武器池 &c[勿忘我]'
-      - '&f当期1%：&d影霄·奔夜'
+      - '&d&l武器池 &c[叙拉古余晖]'
+      - '&f当期1%：&d辉光剑'
       - '&a左键预览，右键抽取'
   # All the prizes that can be gotten in the Crate.
   Prizes:
     2:
-      DisplayName: '&d影霄·奔夜'
-      DisplayItem: 'netherite_sword#1000'
+      DisplayName: '&d辉光剑'
+      DisplayItem: 'golden_sword#1002'
       DisplayAmount: 1
       Lore:
-        - '&a异界的法术抽象出的单手剑。'
-        - '&a 是能力的汇聚，心灵的升变。'
+        - '&a 温暖的颜色中透出些许寒意'
+        - '&a 永远不会有人知道背后的故事'
         - ''
-        - '&7他说......他问......'
-        - '&7他感叹......'
-        - '&7“我王......你往何处去？”'
+        - '&7 最后一抹余晖从这片大地离去'
+        - '&7 有些不经意间的分离竟成为永别。'
         - ''
         - '&f概率：&d1%'
       DisplayEnchantments:
@@ -88,12 +87,12 @@
         - 'MENDING:1'
       Firework: true
       MaxRange: 10000
-      Chance: 667
+      Chance: 66700
       Items:
-        - 'Item:NETHERITE_SWORD#1000, Amount:1, Name:&d影霄·奔夜, SHARPNESS:10, MENDING:1, Lore:&d,&7天雨资源编号：1000'
+        - 'Item:GOLDEN_SWORD#1002, Amount:1, Unbreakabke-Item:ture, Name:&d辉光剑, FIRE_ASPECT:1, LOOTING:6, Lore:&a 温暖的颜色中透出些许寒意,&a 永远不会有人知道背后的故事,&d,&7 最后一抹余晖从这片大地离去,&7 有些不经意间的分离竟成为永别。,&d,&7天雨资源编号：1002'
       Commands:
-        - 'mirai sendgroupmessage 2835190581 905744768 %Player%在武器池[勿忘我]中抽中了 影霄·奔夜（新版）  '
-        - 'broadcast &b&l%Player%&r&f抽到了&d影霄·奔夜（新版）'
+        #- 'mirai sendgroupmessage 2835190581 905744768 %Player%在武器池[叙拉古余晖]中抽中了 辉光剑  '
+        - 'broadcast &b&l%Player%&r&f抽到了&d辉光剑'
     3:
       DisplayName: '&e&l♬10'
       DisplayItem: 'SUNFLOWER'
