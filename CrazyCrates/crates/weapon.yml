@@ -101,8 +101,8 @@
       Lore:
         - '&7Make it rain Money.'
         - '&6&lChance: &c&l98%'
-      MaxRange: 10000
-      Chance: 9333
+      MaxRange: 100
+      Chance: 100
       Commands:
         - 'eco give %Player% 10'
         #- 'lp user %player% permission set crazycrates.blacklist.basic.3' -> This is the line where you would give the user the permission.

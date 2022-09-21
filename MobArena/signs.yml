@@ -33,23 +33,23 @@ info-idle:
 info-joining:
 - '&a<arena-name>'
 - '---------------'
-- 'Ready: <ready-players>/<lobby-players>'
+- '已准备: <ready-players>/<lobby-players>'
 info-running:
 - '&a<arena-name>'
 - '---------------'
-- 'Wave: <current-wave>'
-- 'Alive: <live-players>/<initial-players>'
+- '波数: <current-wave>'
+- '生存: <live-players>/<initial-players>'
 
 join:
 - '&a<arena-name>'
 - '---------------'
-- 'Hit to join'
+- '单击加入'
 join-running:
 - '&a<arena-name>'
 - '---------------'
-- 'In progress'
+- '正在进行'
 
 leave:
 - '&a<arena-name>'
 - '---------------'
-- 'Hit to leave'
+- '单击离开'

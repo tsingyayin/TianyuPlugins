@@ -53,20 +53,20 @@ Crate:
   #The tiers in the Crate
   Tiers:
     #The Config Name for the Crate
+    Rare:
+      Name: '&4稀有奖励'
+      Color: 'YELLOW_STAINED_GLASS_PANE'
+      Chance: 1
+      MaxRange: 100
     Basic:
       #The in-game name of the Crate
       Name: '&8基本奖励'
       #Use the MetaData for the color of the glass
       Color: 'GRAY_STAINED_GLASS_PANE'
       #Chance of that item getting picked. It would be 80/100 chance because MaxRange is 100.
-      Chance: 81991
+      Chance: 1000
       #The max range that the chance will go though.
-      MaxRange: 100000
-    Rare:
-      Name: '&4稀有奖励'
-      Color: 'YELLOW_STAINED_GLASS_PANE'
-      Chance: 18009
-      MaxRange: 100000
+      MaxRange: 1000
   Prizes:
     1:
       DisplayName: '&d辉光剑'

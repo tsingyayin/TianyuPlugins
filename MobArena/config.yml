@@ -140,8 +140,8 @@ arenas:
       entry-fee: ''
       default-class: ''
       clear-wave-before-next: false
-      clear-boss-before-next: false
-      clear-wave-before-boss: false
+      clear-boss-before-next: true
+      clear-wave-before-boss: true
       clear-wave-leeway: 0
       soft-restore: false
       soft-restore-drops: false
@@ -171,7 +171,7 @@ arenas:
       auto-ignite-fuse: 80
       auto-start-timer: 0
       start-delay-timer: 0
-      auto-ready: false
+      auto-ready: true
       use-class-chests: false
       arena-warp-offset: 0
       boss-health-bar: boss-bar
@@ -263,7 +263,7 @@ arenas:
       lobby: 345.5,47,110.5,92.15,0.0,vcworld3
       arena: 318.5,43,108.5,-165.17,0.0,vcworld3
       spectator: 319.5,49,100.5,79.53,0.0,vcworld3
-      exit: 343.5,47,113.5,179.36,0.0,vcworld3
+      exit: 370.5,50,94.5,-28.93,0.0,vcworld3
     class-limits:
       Oddjob: -1
       My Items: -1
