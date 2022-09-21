@@ -7,9 +7,9 @@
   # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
   CrateType: CSGO
   # Name of the Inventory if a GUI crate.
-  CrateName: '&d武器池 &c[叙拉古余晖]'
+  CrateName: '&d武器池 &c[赛拉古斯的余晖]'
   # The name of the inventory that will be in the preview GUI.
-  Preview-Name: '&d武器池 &c[叙拉古余晖]'
+  Preview-Name: '&d武器池 &c[赛拉古斯的余晖]'
   # Starting amount of keys when the player 1st joins.
   StartingKeys: 0
   # If the crate shows in the /cc GUI.
@@ -20,7 +20,7 @@
   # Enables/Disables the Broadcasts message when they open a crate.
   OpeningBroadCast: true
   # Message that is broadcast when opening the crate.
-  BroadCast: '%Prefix%&f%Player%&r &7正在捞取 &d武器池 &c[叙拉古余晖]&7.'
+  BroadCast: '%Prefix%&f%Player%&r &7正在捞取 &d武器池 &c[赛拉古斯的余晖]&7.'
   # Item the crate is in the GUI
   Item: 'CHEST'
   # If the crate in the main /cc GUI is glowing or not.
@@ -65,7 +65,7 @@
     Height: 2.6
     # The message that will be displayed.
     Message:
-      - '&d&l武器池 &c[叙拉古余晖]'
+      - '&d&l武器池 &c[赛拉古斯的余晖]'
       - '&f当期1%：&d辉光剑'
       - '&a左键预览，右键抽取'
   # All the prizes that can be gotten in the Crate.
@@ -83,15 +83,15 @@
         - ''
         - '&f概率：&d1%'
       DisplayEnchantments:
-        - 'SHARPNESS:10'
-        - 'MENDING:1'
+        - 'FIRE_ASPECT:2'
+        - 'LOOTING:6'
       Firework: true
       MaxRange: 10000
-      Chance: 66700
+      Chance: 667
       Items:
-        - 'Item:GOLDEN_SWORD#1002, Amount:1, Unbreakabke-Item:ture, Name:&d辉光剑, FIRE_ASPECT:1, LOOTING:6, Lore:&a 温暖的颜色中透出些许寒意,&a 永远不会有人知道背后的故事,&d,&7 最后一抹余晖从这片大地离去,&7 有些不经意间的分离竟成为永别。,&d,&7天雨资源编号：1002'
+        - 'Item:GOLDEN_SWORD#1002, Amount:1, Unbreakabke-Item:ture, Name:&d辉光剑, FIRE_ASPECT:2, LOOTING:6, Lore:&a 温暖的颜色中透出些许寒意,&a 永远不会有人知道背后的故事,&d,&7 最后一抹余晖从这片大地离去,&7 有些不经意间的分离竟成为永别。,&d,&7天雨资源编号：1002'
       Commands:
-        #- 'mirai sendgroupmessage 2835190581 905744768 %Player%在武器池[叙拉古余晖]中抽中了 辉光剑  '
+        - 'mirai sendgroupmessage 2835190581 905744768 %Player%在武器池[赛拉古斯的余晖]中抽中了 辉光剑  '
         - 'broadcast &b&l%Player%&r&f抽到了&d辉光剑'
     3:
       DisplayName: '&e&l♬10'

@@ -80,6 +80,6 @@ items:
       - '&f————'
     left_click_commands:
       - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
-      - '[console] lp user %player_name% permission settemp prefix.30.[TEST] true 180d'
+      - '[player] say  %player_first_join% permission settemp prefix.30.[TEST] true 180d'
 
 

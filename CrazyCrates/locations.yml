@@ -5,3 +5,9 @@ Locations:
     X: 253
     Y: 65
     Z: 134
+  '2':
+    Crate: weapon10
+    World: world
+    X: 253
+    Y: 65
+    Z: 128
