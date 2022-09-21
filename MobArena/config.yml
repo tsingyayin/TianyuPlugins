@@ -2,7 +2,7 @@ global-settings:
   enabled: true
   allowed-commands: /list, /pl
   update-notification: true
-  prefix: '&a[MobArena] '
+  prefix: '&a[剿灭作战] '
   pet-items:
     wolf: bone
 classes:
@@ -124,6 +124,146 @@ arenas:
     coords:
       spawnpoints: {}
       containers: {}
+    class-limits:
+      Oddjob: -1
+      My Items: -1
+      Knight: -1
+      Archer: -1
+      Tank: -1
+      Chemist: -1
+  underworld:
+    settings:
+      prefix: ''
+      world: vcworld3
+      enabled: true
+      protect: true
+      entry-fee: ''
+      default-class: ''
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      clear-wave-leeway: 0
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      spectate-on-death: true
+      auto-leave-on-end: true
+      share-items-in-arena: false
+      min-players: 0
+      max-players: 4
+      max-join-distance: 0
+      join-interrupt-timer: 0
+      first-wave-delay: 5
+      next-wave-delay: 2
+      wave-interval: 20
+      final-wave: 20
+      monster-limit: 50
+      monster-exp: true
+      keep-exp: true
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-ignite-fuse: 80
+      auto-start-timer: 0
+      start-delay-timer: 0
+      auto-ready: false
+      use-class-chests: false
+      arena-warp-offset: 0
+      boss-health-bar: boss-bar
+      display-waves-as-level: false
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: false
+      announcer-type: title
+      global-join-announce: true
+      global-end-announce: true
+      show-death-messages: true
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            powered-creepers: 10
+            slimes-big: 10
+            angry-wolves: 10
+            blazes: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: slime
+          amount: low
+        boss1:
+          type: boss
+          wave: 10
+          monster: cave_spider
+          health: high
+          abilities: arrows, root-target, throw-nearby
+    rewards:
+      waves:
+        every:
+          '1': $10
+          '3': feather, bone, stick
+          '5': dirt:4, gravel:4, stone:4
+          '10': iron_ingot:10, gold_ingot:8
+        after:
+          '7': minecart, chest_minecart, furnace_minecart
+          '13': iron_sword, iron_pickaxe, iron_shovel
+          '16': diamond_sword
+    coords:
+      spawnpoints:
+        327,48,116: 327.5,48,116.5,0.0,0.0,vcworld3
+        317,48,120: 317.5,48,120.5,0.0,0.0,vcworld3
+        285,40,116: 285.5,40,116.5,0.0,0.0,vcworld3
+        287,40,106: 287.5,40,106.5,0.0,0.0,vcworld3
+        292,40,97: 292.5,40,97.5,0.0,0.0,vcworld3
+        300,40,96: 300.5,40,96.5,0.0,0.0,vcworld3
+        298,48,97: 298.5,48,97.5,0.0,0.0,vcworld3
+        300,52,97: 300.5,52,97.5,0.0,0.0,vcworld3
+        310,35,99: 310.5,35,99.5,0.0,0.0,vcworld3
+        321,40,99: 321.5,40,99.5,0.0,0.0,vcworld3
+        319,35,113: 319.5,35,113.5,0.0,0.0,vcworld3
+        292,36,121: 292.5,36,121.5,0.0,0.0,vcworld3
+        308,36,122: 308.5,36,122.5,0.0,0.0,vcworld3
+        314,36,121: 314.5,36,121.5,0.0,0.0,vcworld3
+        315,40,120: 315.5,40,120.5,0.0,0.0,vcworld3
+        300,40,122: 300.5,40,122.5,0.0,0.0,vcworld3
+        290,40,120: 290.5,40,120.5,0.0,0.0,vcworld3
+        300,44,122: 300.5,44,122.5,0.0,0.0,vcworld3
+        291,50,96: 291.5,50,96.5,0.0,0.0,vcworld3
+      containers:
+        308,40,120: 308,40,120,0.0,0.0,vcworld3
+        315,52,118: 315,52,118,0.0,0.0,vcworld3
+        296,48,123: 296,48,123,0.0,0.0,vcworld3
+        279,49,114: 279,49,114,0.0,0.0,vcworld3
+        291,50,98: 291,50,98,0.0,0.0,vcworld3
+        315,39,96: 315,39,96,0.0,0.0,vcworld3
+        299,33,117: 299,33,117,0.0,0.0,vcworld3
+      l1: 333,45,98,0.0,0.0,vcworld3
+      l2: 355,54,121,0.0,0.0,vcworld3
+      p2: 331,55,153,0.0,0.0,vcworld3
+      p1: 271,33,90,0.0,0.0,vcworld3
+      lobby: 345.5,47,110.5,92.15,0.0,vcworld3
+      arena: 318.5,43,108.5,-165.17,0.0,vcworld3
+      spectator: 319.5,49,100.5,79.53,0.0,vcworld3
+      exit: 343.5,47,113.5,179.36,0.0,vcworld3
     class-limits:
       Oddjob: -1
       My Items: -1

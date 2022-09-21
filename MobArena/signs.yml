@@ -28,8 +28,8 @@
 info-idle:
 - '&a<arena-name>'
 - '---------------'
-- 'Waiting for'
-- 'players to join'
+- '&b等待玩家中'
+- '---------------'
 info-joining:
 - '&a<arena-name>'
 - '---------------'

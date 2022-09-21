@@ -1,8 +1,8 @@
-arena-start: Let the slaughter begin!
-arena-end: Arena finished.
-arena-does-not-exist: That arena does not exist. Type &e/ma arenas&r for a list.
-arena-end-global: Arena &e%&r finished! Type &e/ma j %&r to join a new game!
-arena-join-global: Arena &e%&r is about to start! Type &e/ma j %&r to join!
+arena-start: 剿灭开始
+arena-end: 剿灭结束
+arena-does-not-exist: 该剿灭区域不存在，使用命令 &e/ma arenas&r列出全部可用列表。
+arena-end-global: 剿灭作战 &e%&r 已经结束! 使用命令 &e/ma j %&r 尝试加入一个新的作战!
+arena-join-global: 剿灭作战 &e%&r 即将开始! 使用命令 &e/ma j %&r 加入该作战!
 arena-lboard-not-found: That arena does not have a leaderboard set up.
 arena-auto-start: Arena will auto-start in &c%&r seconds.
 arena-start-delay: Arena can start in &e%&r seconds.
