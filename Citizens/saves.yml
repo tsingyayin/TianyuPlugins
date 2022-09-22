@@ -196,13 +196,13 @@ npc:
           cycle: false
         provider: linear
       location:
-        bodyYaw: -9.870506
+        bodyYaw: -59.134327
         world: world
         x: '306.5088'
         y: '64.0'
         z: '11.2226'
-        yaw: '-9.8705'
-        pitch: '-11.0443'
+        yaw: '-59.1343'
+        pitch: '0.0'
     traitnames: commandtrait,gravity,skintrait,owner,lookclose,type,speech,spawned,inventory,age,smoothrotationtrait,location,scoreboardtrait,waypoints,mounttrait
     navigator:
       speedmodifier: '1.0'
@@ -581,12 +581,12 @@ npc:
         signature: mvEqdzriR1KfVYXv6x7jxsXViYS7rH7kM8L9SC+UOptjPKpUZrVpIWxdRaz3escCsG70g2MjMCvMoi848nXz81mreb7v0CF0yI/ANJBRTLH2Hvano4YyRTd00wguXwlFYfEAVVpwsw0kHAV/UItyQPnB0N+ZW+eYN4Kk5sn1NTYb3n6cDPOOMfXthVGoOf8Jck0vSsazd7SfVxlRIYMj2UBnNcB+TODXB8M/rSQt+P2yoUjPWQLEMapLO4z9/wxdGeCW8wZfzitbF8CZO08MKCF79nhHVayKxFvrHlQMG3VJLTkufl5gc1Kjb0OjD1OWAudF0n6O9ABrSDTYwQ3ILWS+Cog1shC5jSryMXrAfACtiDuHbRvQC6YrKRk6Ml5wrCjYO0VFrxVrHSlS037VoYdVJ6rRrQfqeamYDpUo9xhLVSALVHtD2Wg4aAZRzn9HK4oLAujIwGND508Fs+BkN3OR7ddiGFeHT6K22cuneohaxAFp7ZAk0prKqeKgusN8ZNzMWZbEWkNTcE6YqBLfU3n5mFxlJpeJ2r3TgnJtp+pCl3DqksIi4v+S7LAsb1QegbeST29VwLuYlckZ8ZuiknM+WLVJ8VPeoEg4pkzSv2uxGpufZbthR/RBpLYwWLHQYV21Zbg5x1CU4vUU9pEx+jyyzYpJP5rTu3JuLLfVlbg=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5ODE0NTkwNDExMSwKICAicHJvZmlsZUlkIiA6ICI1MzRmMmI2MDNkNDI0ZjVhODRmMWM2YWUxMGFiNTM2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUX0ZvcmV2ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDEwMGU5ODI1YTFmZTM3M2Q4ZDAyYjcwNGUyNTBiNjcwNzUwNDAyNDZlYmJhNzkyOWZkZjRjMDlhYzBmM2I2MyIKICAgIH0KICB9Cn0=
       location:
-        bodyYaw: 8.505951
+        bodyYaw: 10.396606
         world: world
         x: '311.3186'
         y: '64.0'
         z: '8.1959'
-        yaw: '8.506'
+        yaw: '10.3966'
         pitch: '0.0'
       commandtrait:
         cost: -1.0
@@ -679,6 +679,8 @@ npc:
           6ad157ef-ddce-3475-a04e-7c94e25e6b2f:
             lastUsedId: 0
           9e0fc348-1c15-3842-99af-cc5baf6baee0:
+            lastUsedId: 0
+          f00a43fd-a50d-368a-a3d0-9ae3f8050076:
             lastUsedId: 0
           69cfe5c5-4552-3521-b6e0-e5e43aba4036:
             lastUsedId: 0

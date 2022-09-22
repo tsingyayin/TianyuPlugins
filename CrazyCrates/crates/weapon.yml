@@ -86,8 +86,8 @@
         - 'FIRE_ASPECT:2'
         - 'LOOTING:6'
       Firework: true
-      MaxRange: 10000
-      Chance: 667
+      MaxRange: 100
+      Chance: 4
       Items:
         - 'Item:GOLDEN_SWORD#1002, Amount:1, Unbreakable-Item:true, Name:&d辉光剑, FIRE_ASPECT:2, LOOTING:6, Lore:&a 温暖的颜色中透出些许寒意,&a 永远不会有人知道背后的故事,&d,&7 最后一抹余晖从这片大地离去,&7 有些不经意间的分离竟成为永别。,&d,&7天雨资源编号：1002'
       Commands:

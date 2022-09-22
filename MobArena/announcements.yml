@@ -26,24 +26,24 @@ join-existing-inv-restored: Your old inventory items have been restored.
 join-after-delay: Joining arena in &c%&r seconds...
 join-interrupted-by-damage: Join aborted due to taking damage.
 join-interrupted-by-movement: Join aborted due to movement.
-join-player-joined: You joined the arena. Have fun!
-leave-not-playing: You are not in the arena.
+join-player-joined: 你加入了一个剿灭任务，请用命令ma class 选择职业
+leave-not-playing: 你已经离开剿灭行动范围！
 leave-not-ready: You did not ready up in time! Next time, ready up by clicking an
   iron block.
 leave-player-left: 感谢您参与本次剿灭行动!
 player-died: '&c%&r 已经从剿灭作战中负伤退出!'
 golem-died: A friendly Golem has died!
 spec-player-spectate: 认真观摩作战！
-spec-from-arena: Enjoy the rest of the show!
-spec-not-running: This arena isn't running.
+spec-from-arena: 认真观摩作战!
+spec-not-running: 该区域现在没有正在执行的剿灭任务
 spec-empty-inv: 请先清空您的物品，剿灭区域禁止私人物品进入。
-spec-already-playing: Can't spectate when in the arena!
-not-ready-players: 'Not ready: &c%&r'
-force-start-running: Arena has already started.
-force-start-not-ready: Can't force start, no players are ready.
-force-start-started: Forced arena start.
-force-end-empty: No one is in the arena.
-force-end-ended: Forced arena end.
+spec-already-playing: 任务正在进行，你现在不能观战!
+not-ready-players: '还有几人未准备: &c%&r'
+force-start-running: 该剿灭任务已经开始
+force-start-not-ready: 该剿灭任务不能强制开始，因为有人未选择职业
+force-start-started: 该剿灭任务已经强制开始
+force-end-empty: 该区域无人执行剿灭任务，不能开始
+force-end-ended: 该剿灭任务已经强制结束
 force-end-idle: You weren't quick enough!
 rewards-give: 这是您的剿灭报酬!
 lobby-drop-item: 剿灭战场复杂，不能轻易抛弃物资!
@@ -51,35 +51,35 @@ lobby-player-ready: 您已经准备好出战剿灭任务!
 lobby-pick-class: 请先用命令/ma class 选择一个职业出战!
 lobby-class-full: 该职业在团队中已经满员，请使用其他职业出战!
 lobby-not-enough-players: 准备状态的玩家不足，应当至少有 &c%&r 人进入准备状态。
-lobby-right-click: Punch the sign. Don't right-click.
+lobby-right-click: 左键木牌，而不是使用右键
 lobby-class-picked: 你选择使用 &e%&r 职业出战!
 lobby-class-random: 你的团队职业会在剿灭行动开始后随机确定
 lobby-class-permission: 你无权使用该职业出战
 lobby-class-price: This class costs &c%&r (paid on arena start).
 lobby-class-too-expensive: You can't afford that class (&c%&r)
 lobby-no-such-class: 你指定的职业无效 &c%&r.
-not-in-lobby: You are not in the lobby
-warp-to-arena: Warping to the arena not allowed!
-warp-from-arena: Warping from the arena not allowed!
-wave-default: 第 &b#%&r波
-wave-special: 第 &b#%&r波[特殊]
-wave-swarm: 第 &b#%&r波[特殊]
-wave-supply: 第 &b#%&r波[支援]
-wave-upgrade: 第 &b#%&r波[更迭]
-wave-boss: 第 &b#%&r波 [BOSS]
+not-in-lobby: 你离开了准备区域
+warp-to-arena: 剿灭行动正在进行，禁止闲人加入!
+warp-from-arena: 剿灭行动正在进行，不得离开!
+wave-default: 第 &b%&r 波
+wave-special: 第 &b%&r 波[特殊]
+wave-swarm: 第 &b%&r 波[特殊]
+wave-supply: 第 &b%&r 波[支援]
+wave-upgrade: 第 &b#%&r 波[更迭]
+wave-boss: 第 &b%&r 波 [BOSS]
 wave-boss-ability: 'BOSS使用了技能: &c%&r!'
 wave-boss-low-health: Boss已击杀
 wave-boss-killed: '&a%&r 完成了对BOSS的击杀!'
 wave-boss-reward-earned: '您获得了奖励: &e%'
 wave-reward: '您获得了奖励: &e%&r'
 misc-reward-added: 'You were just given a reward: &e%&r'
-misc-list-players: 'Live players: &a%&r'
-misc-list-arenas: 'Available arenas: %'
+misc-list-players: '还有几人正在坚持: &a%&r'
+misc-list-arenas: '可以出战的剿灭区域: %'
 misc-command-not-allowed: 剿灭事件紧急，不要分心做其他事情!
-misc-no-access: You don't have access to this command.
-misc-not-from-console: You can't use this command from the console.
-misc-help: For a list of commands, type &e/ma help&r
-misc-multiple-matches: Did you mean one of these commands?
-misc-no-matches: Command not found. Type &e/ma help&r
-misc-ma-leave-reminder: Remember to use &e/ma leave&r when you are done.
+misc-no-access: 你无权使用该命令
+misc-not-from-console: 你无权要求服务器为你执行该命令
+misc-help: 使用&e/ma help&r查看命令帮助
+misc-multiple-matches: 您是否想执行该命令?
+misc-no-matches: 未找到此命令，使用 &e/ma help&r进入帮助
+misc-ma-leave-reminder: 请使用命令&e/ma leave&r 当你想退出剿灭任务
 misc-none: '&6<none>&r'

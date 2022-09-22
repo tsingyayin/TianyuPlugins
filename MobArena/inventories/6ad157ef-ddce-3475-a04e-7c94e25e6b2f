@@ -1,0 +1,53 @@
+contents:
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: MINECART
+- ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: DIRT
+  amount: 8
+- ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: BONE
+  amount: 7
+- ==: org.bukkit.inventory.ItemStack
+  v: 3120
+  type: STICK
+  amount: 4
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
