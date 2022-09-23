@@ -1,0 +1,93 @@
+﻿#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&8> &b天雨镇登录奖励'
+#register_command: true
+open_command:
+  - tianyuloginbox
+  - elogin
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 27
+# as always, only cool people can open this menu :)
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: tianyu.default
+      deny_commands:
+        - "[message] &8[&bDeluxe&eMenus&8] &cYou don't have perms for this!"
+items:
+  'gui_part1':
+    material: GLASS_PANE
+    model_data: 1000
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c %localtime_time_MMdd%'
+
+  'gui_part2':
+    material: GLASS_PANE
+    model_data: 1001
+    slot: 5
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c'
+  'login1_g':
+    material: BRICK
+    slot: 20
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c10.01礼包'
+    lore:
+      - '&7这个礼包已经领取!'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.login.20221001
+  'login1':
+    material: IRON_INGOT
+    amount: 10
+    slot: 20
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&aVIP1礼包'
+    lore:
+      - '&7冷却时间: &f22 小时'
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: javascript
+          expression: '%localtime_time_MMdd% >= 1001'
+        kit_perm:
+          type: has permission
+          permission: essentials.kits.dayvip1
+    left_click_commands:
+      - '[console] give %player_name% iron_ingot 10'
+      - '[console] lp user %player_name% permission settemp tianyu.login.20221001 true 180d'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'login1_u':
+    material: BRICK
+    slot: 20
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&c10.01礼包'
+    lore:
+      - '&7这个礼包现未到领取时间!'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+
+
+

@@ -60,6 +60,6 @@ entity:
     COW: 6
     CHICKEN: 6
     SHEEP: 6
-    PIG_ZOMBIE: 6
+    ZOMBIFIED_PIGLIN: 3
   #每个区块中 各类型实体的最大数量，超过数量会清理超出限制的部分
   #实体类型为枚举名
