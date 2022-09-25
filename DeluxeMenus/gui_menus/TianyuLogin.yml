@@ -17,6 +17,7 @@ open_requirement:
       deny_commands:
         - "[message] &8[&bDeluxe&eMenus&8] &cYou don't have perms for this!"
 items:
+#GUI 定义部分
   'gui_part1':
     material: GLASS_PANE
     model_data: 1000
@@ -25,7 +26,6 @@ items:
     update: true
     hide_attributes: true
     display_name: '&c %localtime_time_MMdd%'
-
   'gui_part2':
     material: GLASS_PANE
     model_data: 1001
@@ -34,6 +34,7 @@ items:
     update: true
     hide_attributes: true
     display_name: '&c'
+#礼包部分_10月1日
   'login1_g':
     material: BRICK
     slot: 20
@@ -56,9 +57,8 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&aVIP1礼包'
+    display_name: '&a10.01登录奖励'
     lore:
-      - '&7冷却时间: &f22 小时'
       - '&7左键获取该礼包'
     view_requirement:
       requirements:
@@ -67,7 +67,7 @@ items:
           expression: '%localtime_time_MMdd% >= 1001'
         kit_perm:
           type: has permission
-          permission: essentials.kits.dayvip1
+          permission: tianyu.default
     left_click_commands:
       - '[console] give %player_name% iron_ingot 10'
       - '[console] lp user %player_name% permission settemp tianyu.login.20221001 true 180d'
@@ -88,6 +88,327 @@ items:
         kit_perm:
           type: has permission
           permission: tianyu.default
-
-
-
+#10月2日
+  'login2_g':
+    material: BRICK
+    slot: 21
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c10.02礼包'
+    lore:
+      - '&7这个礼包已经领取!'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.login.20221002
+  'login2':
+    material: IRON_INGOT
+    amount: 10
+    slot: 21
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&a10.02登录奖励'
+    lore:
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: javascript
+          expression: '%localtime_time_MMdd% >= 1002'
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[console] give %player_name% iron_ingot 10'
+      - '[console] lp user %player_name% permission settemp tianyu.login.20221002 true 180d'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'login2_u':
+    material: BRICK
+    slot: 21
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&c10.02礼包'
+    lore:
+      - '&7这个礼包现未到领取时间!'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+#10月3日
+  'login3_g':
+    material: BRICK
+    slot: 22
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c10.03礼包'
+    lore:
+      - '&7这个礼包已经领取!'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.login.20221003
+  'login3':
+    material: IRON_INGOT
+    amount: 10
+    slot: 22
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&a10.03登录奖励'
+    lore:
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: javascript
+          expression: '%localtime_time_MMdd% >= 1003'
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[console] give %player_name% iron_ingot 10'
+      - '[console] lp user %player_name% permission settemp tianyu.login.20221003 true 180d'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'login3_u':
+    material: BRICK
+    slot: 22
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&c10.03礼包'
+    lore:
+      - '&7这个礼包现未到领取时间!'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+#10月4日
+  'login4_g':
+    material: BRICK
+    slot: 23
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c10.04礼包'
+    lore:
+      - '&7这个礼包已经领取!'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.login.20221004
+  'login4':
+    material: IRON_INGOT
+    amount: 10
+    slot: 23
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&a10.04登录奖励'
+    lore:
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: javascript
+          expression: '%localtime_time_MMdd% >= 1004'
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[console] give %player_name% iron_ingot 10'
+      - '[console] lp user %player_name% permission settemp tianyu.login.20221004 true 180d'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'login4_u':
+    material: BRICK
+    slot: 23
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&c10.04礼包'
+    lore:
+      - '&7这个礼包现未到领取时间!'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+#10月5日
+  'login5_g':
+    material: BRICK
+    slot: 24
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c10.05礼包'
+    lore:
+      - '&7这个礼包已经领取!'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.login.20221005
+  'login5':
+    material: IRON_INGOT
+    amount: 10
+    slot: 24
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&a10.05登录奖励'
+    lore:
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: javascript
+          expression: '%localtime_time_MMdd% >= 1005'
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[console] give %player_name% iron_ingot 10'
+      - '[console] lp user %player_name% permission settemp tianyu.login.20221005 true 180d'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'login5_u':
+    material: BRICK
+    slot: 24
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&c10.05礼包'
+    lore:
+      - '&7这个礼包现未到领取时间!'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+#10月6日
+  'login6_g':
+    material: BRICK
+    slot: 25
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c10.06礼包'
+    lore:
+      - '&7这个礼包已经领取!'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.login.20221006
+  'login6':
+    material: IRON_INGOT
+    amount: 10
+    slot: 25
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&a10.06登录奖励'
+    lore:
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: javascript
+          expression: '%localtime_time_MMdd% >= 1006'
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[console] give %player_name% iron_ingot 10'
+      - '[console] lp user %player_name% permission settemp tianyu.login.20221006 true 180d'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'login6_u':
+    material: BRICK
+    slot: 25
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&c10.06礼包'
+    lore:
+      - '&7这个礼包现未到领取时间!'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+#10月7日
+  'login7_g':
+    material: BRICK
+    slot: 26
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&c10.07礼包'
+    lore:
+      - '&7这个礼包已经领取!'
+      - '&7所以现在您不能再获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.login.20221007
+  'login7':
+    material: IRON_INGOT
+    amount: 10
+    slot: 26
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&a10.07登录奖励'
+    lore:
+      - '&7左键获取该礼包'
+    view_requirement:
+      requirements:
+        kit_requirement:
+          type: javascript
+          expression: '%localtime_time_MMdd% >= 1007'
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[console] give %player_name% iron_ingot 10'
+      - '[console] lp user %player_name% permission settemp tianyu.login.20221007 true 180d'
+      - '[refresh]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'login7_u':
+    material: BRICK
+    slot: 26
+    priority: 3
+    update: true
+    hide_attributes: true
+    display_name: '&c10.07礼包'
+    lore:
+      - '&7这个礼包现未到领取时间!'
+      - '&7所以现在您不能获取它。'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default

@@ -39,7 +39,7 @@ items:
       - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
       - '[player] res tp spawn.chenxi.mobplatform'
   'iron4x':
-    material: IRON_BLOCK
+    material: IRON_INGOT
     slot: 1
     priority: 1
     update: true
@@ -368,3 +368,94 @@ items:
       - '[close]'
       - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
       - '[player] res tp tou'
+  'iron16x':
+    material: IRON_BLOCK
+    slot: 16
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f十六核刷铁机'
+    lore:
+      - '&d提供者：&bDav7d_Liang'
+      - '&d领地位置：&eFe3o4'
+      - '&d领地宣称：&e伊比利亚渔村 十六核刷铁机'
+      - '&d领地产出：&a铁锭，小红花'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp Fe3o4'
+  'slime':
+    material: SLIME_BALL
+    slot: 17
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f史莱姆农场'
+    lore:
+      - '&d提供者：&bDav7d_Liang'
+      - '&d领地位置：&eshilaimu'
+      - '&d领地宣称：&e雪原镇 史莱姆农场'
+      - '&d领地产出：&a史莱姆球'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp shilaimu'
+  'nvwuta':
+    material: REDSTONE
+    slot: 18
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f女巫塔'
+    lore:
+      - '&d提供者：&bDav7d_Liang'
+      - '&d领地位置：&envwu'
+      - '&d领地宣称：&e雪原镇 女巫塔'
+      - '&d领地产出：&a红石，荧石粉，木棍，玻璃瓶，蜘蛛眼，火药，糖'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp nvwu'
+  'money':
+    material: EMERALD
+    slot: 19
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f印钞机'
+    lore:
+      - '&d提供者：&bTsingYayin, Dav7d_Liang, Lmsh9822'
+      - '&d领地位置：&espawn.money'
+      - '&d领地宣称：&e天雨镇 天雨外海 印钞机'
+      - '&d领地产出：&a绿宝石，红石，荧石粉，木棍，'
+      - '&a    玻璃瓶，蜘蛛眼，火药，糖'
+      - '&a    灾厄旗帜，鞍，抗火药水，生命恢复药水，'
+      - '&a    不死图腾，弩，铁斧'
+      - '&f单击传送' 
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+    left_click_commands:
+      - '[close]'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[player] res tp spawn.money'
