@@ -200,13 +200,13 @@ npc:
           cycle: false
         provider: linear
       location:
-        bodyYaw: -20.965576
+        bodyYaw: -17.44439
         world: world
         x: '306.5088'
         y: '64.0'
         z: '11.2226'
-        yaw: '-20.9656'
-        pitch: '-5.9231'
+        yaw: '-17.4444'
+        pitch: '-5.7523'
     traitnames: owner,lookclose,type,waypoints,smoothrotationtrait,mounttrait,age,speech,spawned,scoreboardtrait,location,gravity,skintrait,commandtrait,inventory
     navigator:
       speedmodifier: '1.0'
@@ -347,6 +347,8 @@ npc:
             lastUsedId: 1
           135897ed-1857-311d-b2b3-89567dee3025:
             lastUsedId: 5
+          0eeca5d5-81b7-364c-8ba9-7633cfa71c6d:
+            lastUsedId: 4
           905dc1e1-54ec-3dca-bf3d-0bdafb749d5a:
             lastUsedId: 7
           b4414a20-84c1-3a23-a333-2e1011429636:
@@ -465,6 +467,8 @@ npc:
             lastUsedId: 1
           58648d5b-2a9b-3811-bf4d-525a9c0401f4:
             lastUsedId: 0
+          0eeca5d5-81b7-364c-8ba9-7633cfa71c6d:
+            lastUsedId: 0
           905dc1e1-54ec-3dca-bf3d-0bdafb749d5a:
             lastUsedId: 0
           7e705f1e-09bd-3c3d-900a-85829611f8a3:
@@ -480,6 +484,8 @@ npc:
           c6a374a2-353c-3c93-8e50-bd90d05b3ee9:
             lastUsedId: 1
           5f4f9612-b878-3a54-ae59-416da286e223:
+            lastUsedId: 0
+          8066e6c6-f923-32fe-8d3c-040f268d4862:
             lastUsedId: 0
           9d0fcde8-6eee-35e2-9694-1ff14706452a:
             lastUsedId: 1
@@ -589,12 +595,12 @@ npc:
         signature: mvEqdzriR1KfVYXv6x7jxsXViYS7rH7kM8L9SC+UOptjPKpUZrVpIWxdRaz3escCsG70g2MjMCvMoi848nXz81mreb7v0CF0yI/ANJBRTLH2Hvano4YyRTd00wguXwlFYfEAVVpwsw0kHAV/UItyQPnB0N+ZW+eYN4Kk5sn1NTYb3n6cDPOOMfXthVGoOf8Jck0vSsazd7SfVxlRIYMj2UBnNcB+TODXB8M/rSQt+P2yoUjPWQLEMapLO4z9/wxdGeCW8wZfzitbF8CZO08MKCF79nhHVayKxFvrHlQMG3VJLTkufl5gc1Kjb0OjD1OWAudF0n6O9ABrSDTYwQ3ILWS+Cog1shC5jSryMXrAfACtiDuHbRvQC6YrKRk6Ml5wrCjYO0VFrxVrHSlS037VoYdVJ6rRrQfqeamYDpUo9xhLVSALVHtD2Wg4aAZRzn9HK4oLAujIwGND508Fs+BkN3OR7ddiGFeHT6K22cuneohaxAFp7ZAk0prKqeKgusN8ZNzMWZbEWkNTcE6YqBLfU3n5mFxlJpeJ2r3TgnJtp+pCl3DqksIi4v+S7LAsb1QegbeST29VwLuYlckZ8ZuiknM+WLVJ8VPeoEg4pkzSv2uxGpufZbthR/RBpLYwWLHQYV21Zbg5x1CU4vUU9pEx+jyyzYpJP5rTu3JuLLfVlbg=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5ODE0NTkwNDExMSwKICAicHJvZmlsZUlkIiA6ICI1MzRmMmI2MDNkNDI0ZjVhODRmMWM2YWUxMGFiNTM2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUX0ZvcmV2ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDEwMGU5ODI1YTFmZTM3M2Q4ZDAyYjcwNGUyNTBiNjcwNzUwNDAyNDZlYmJhNzkyOWZkZjRjMDlhYzBmM2I2MyIKICAgIH0KICB9Cn0=
       location:
-        bodyYaw: 10.261261
+        bodyYaw: 0.9724121
         world: world
         x: '311.3186'
         y: '64.0'
         z: '8.1959'
-        yaw: '10.2613'
+        yaw: '0.9724'
         pitch: '0.0'
       commandtrait:
         cost: -1.0
@@ -633,6 +639,8 @@ npc:
           29e5948a-31ef-30d3-ab7c-0ef283d22100:
             lastUsedId: 0
           58648d5b-2a9b-3811-bf4d-525a9c0401f4:
+            lastUsedId: 0
+          0eeca5d5-81b7-364c-8ba9-7633cfa71c6d:
             lastUsedId: 0
           6d25e67e-9256-3e70-93bf-1a604ce0f8d1:
             lastUsedId: 0
@@ -894,13 +902,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -6.7504044
+        bodyYaw: -115.154274
         world: world
         x: '351.535'
         y: '64.0'
         z: '48.445'
-        yaw: '-6.7504'
-        pitch: '6.4645'
+        yaw: '-115.1543'
+        pitch: '0.0'
       age:
         age: 0
         locked: true
@@ -1209,13 +1217,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 132.72935
+        bodyYaw: 144.37402
         world: world
         x: '273.0243'
         y: '65.0'
         z: '-6.6657'
-        yaw: '167.7294'
-        pitch: '0.0'
+        yaw: '179.374'
+        pitch: '-2.0461'
       skintrait:
         fetchDefaultSkin: true
         signature: YANNgSPqXPaJYnNK6xYFNuQOlfA2Awkx6cdGs7gY8fq7lQMkIdCO4DOtKvzHccInTAk4plHNzSiHpA4v7fgZPNYQTbHJB8q+ifktPFqv3T3g+ty7rxfDvl9vz0B1mJnyTBrOnI/Ybm2mow5nI6mpFlWznM96eaoQBCAW+kzhYz5OEfbhOJ9sL/0wxHyKbqQkn20B84nkBGIK7Us8dJlzVKVstrhoQGt9RqXMdy+Rltj6+X51NZaRj/xwxjA+KsylI9RP7XNsQtEfxtWLIq8ZnnRQpEkvwEZN1VtCdNTmN98680ek/NJoh8D/6IAxFwtXWO/9zaE1DQtwYR/PK/JrimZ1KItshcF139OY/gOpwRJtPJx1xlVHV41+LU48XF0QvP28x5cbvNdxgM9dwi8UcW9i0eW+8s4UTeitwJ5zBY/Yv4TAxTCYe81uD0zZtyiQOjzJni9l9VMc8axwk6tif4EMn9NxpfUmcVitq5T8/y2FIDy3aY0AiP7+7zgvp38eEk7vrLni1Qo6atTwa3vL/5J20dC6uX4DCtMUJRLi1gbj8UiAWfIcYGyLQ/7B+lT/olCCwwumXF2MvYhRq2ey56STPtZhkq+M+tv9vMoyipvPbTSbYXHqXkcKuWkRR2VEMpybsKBECy1rkdaub8QLTVl1XKKUcX9Ih3HHTTTBPpI=
@@ -1344,13 +1352,13 @@ npc:
     uuid: 34d9c731-5006-41f2-93ec-700aef27d168
     traits:
       location:
-        bodyYaw: 127.55557
+        bodyYaw: -169.82715
         world: world
         x: '861.657'
         y: '-8.9375'
         z: '-2671.6323'
-        yaw: '162.5556'
-        pitch: '-4.963'
+        yaw: '-169.8271'
+        pitch: '0.0'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -1391,13 +1399,13 @@ npc:
     uuid: ce68ad98-240f-4659-a3df-51c53f5c6b8c
     traits:
       location:
-        bodyYaw: 115.00955
+        bodyYaw: 117.95941
         world: world
         x: '864.8923'
         y: '-8.9375'
         z: '-2671.6342'
-        yaw: '114.0937'
-        pitch: '-29.1518'
+        yaw: '152.9594'
+        pitch: '0.0'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
