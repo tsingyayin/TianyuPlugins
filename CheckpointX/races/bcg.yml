@@ -1,0 +1,67 @@
+!!io.github.theriverelder.checkpointx.model.RaceData
+author: TsingYayin
+available: true
+checkpoints:
+- {XRo: 359.373, YRo: 2.4892006, radius: 5, world: boatworld, x: 5, y: 146, z: 362}
+- {XRo: 270.93164, YRo: -1.5687964, radius: 5, world: boatworld, x: 67, y: 146, z: 336}
+- {XRo: 181.49713, YRo: 0.92537737, radius: 5, world: boatworld, x: 25, y: 146, z: 288}
+- {XRo: 271.71045, YRo: 3.6329494, radius: 5, world: boatworld, x: -8, y: 146, z: 271}
+- {XRo: 0.5715027, YRo: 11.899034, radius: 5, world: boatworld, x: 19, y: 146, z: 253}
+- {XRo: 90.57245, YRo: 32.564396, radius: 5, world: boatworld, x: 41, y: 146, z: 300}
+- {XRo: 0.072906494, YRo: 18.383707, radius: 5, world: boatworld, x: 64, y: 139, z: 368}
+- {XRo: 270.2846, YRo: 23.870758, radius: 5, world: boatworld, x: 91, y: 139, z: 301}
+- {XRo: 268.71393, YRo: 16.103329, radius: 5, world: boatworld, x: 126, y: 139, z: 255}
+- {XRo: 180.70697, YRo: 26.792305, radius: 5, world: boatworld, x: 96, y: 139, z: 238}
+- {XRo: 180.13885, YRo: 11.186418, radius: 5, world: boatworld, x: 53, y: 139, z: 273}
+- {XRo: 1.28302, YRo: 10.61632, radius: 5, world: boatworld, x: 58, y: 132, z: 226}
+- {XRo: 90.71326, YRo: 8.050936, radius: 5, world: boatworld, x: 141, y: 132, z: 260}
+- {XRo: 90.14319, YRo: 31.424168, radius: 5, world: boatworld, x: 141, y: 132, z: 337}
+- {XRo: 180.50061, YRo: 30.569017, radius: 5, world: boatworld, x: 96, y: 132, z: 361}
+- {XRo: 90.6423, YRo: 27.932364, radius: 5, world: boatworld, x: 56, y: 132, z: 383}
+- {XRo: 0.14257812, YRo: 28.787477, radius: 5, world: boatworld, x: 83, y: 132, z: 411}
+- {XRo: 270.21082, YRo: 29.072502, radius: 5, world: boatworld, x: 106, y: 132, z: 349}
+- {XRo: 359.3567, YRo: 28.573685, radius: 5, world: boatworld, x: 150, y: 132, z: 327}
+- {XRo: 270.5658, YRo: 25.0107, radius: 5, world: boatworld, x: 181, y: 125, z: 285}
+- {XRo: 180.13501, YRo: 27.290993, radius: 5, world: boatworld, x: 114, y: 125, z: 247}
+- {XRo: 91.06055, YRo: 21.732718, radius: 5, world: boatworld, x: 68, y: 125, z: 279}
+- {XRo: 182.27686, YRo: 29.215052, radius: 5, world: boatworld, x: 15, y: 125, z: 340}
+- {XRo: 270.5692, YRo: 25.367035, radius: 5, world: boatworld, x: -6, y: 119, z: 310}
+- {XRo: 91.919495, YRo: 21.66152, radius: 5, world: boatworld, x: -41, y: 119, z: 309}
+- {XRo: 359.98975, YRo: 19.523737, radius: 5, world: boatworld, x: -13, y: 119, z: 401}
+- {XRo: 359.6333, YRo: 20.236341, radius: 5, world: boatworld, x: 12, y: 119, z: 401}
+- {XRo: 89.920715, YRo: 28.146183, radius: 5, world: boatworld, x: 34, y: 119, z: 430}
+- {XRo: 270.56628, YRo: 24.868254, radius: 5, world: boatworld, x: -1, y: 119, z: 437}
+- {XRo: 270.56628, YRo: 24.868254, radius: 5, world: boatworld, x: -1, y: 119, z: 393}
+- {XRo: 270.42206, YRo: 28.21746, radius: 5, world: boatworld, x: 34, y: 119, z: 345}
+- {XRo: 182.4848, YRo: 21.091454, radius: 5, world: boatworld, x: 13, y: 109, z: 311}
+- {XRo: 181.48798, YRo: 25.295815, radius: 5, world: boatworld, x: -30, y: 109, z: 346}
+- {XRo: 181.48798, YRo: 25.367075, radius: 5, world: boatworld, x: -59, y: 109, z: 346}
+- {XRo: 179.9198, YRo: 22.659237, radius: 5, world: boatworld, x: -85, y: 109, z: 346}
+- {XRo: 179.9198, YRo: 22.659237, radius: 5, world: boatworld, x: -108, y: 109, z: 346}
+- {XRo: 91.344055, YRo: 17.314758, radius: 5, world: boatworld, x: -126, y: 109, z: 440}
+- {XRo: 270.98102, YRo: 12.041511, radius: 5, world: boatworld, x: -91, y: 109, z: 440}
+- {XRo: 270.98102, YRo: 12.041511, radius: 5, world: boatworld, x: -91, y: 109, z: 415}
+- {XRo: 270.98102, YRo: 12.041511, radius: 5, world: boatworld, x: -90, y: 109, z: 374}
+- {XRo: 270.98102, YRo: 12.041511, radius: 5, world: boatworld, x: -91, y: 109, z: 323}
+- {XRo: 359.5595, YRo: 19.808859, radius: 5, world: boatworld, x: -19, y: 109, z: 231}
+- {XRo: 0.34350586, YRo: 19.167515, radius: 5, world: boatworld, x: 114, y: 109, z: 231}
+- {XRo: 90.273865, YRo: 22.160427, radius: 5, world: boatworld, x: 177, y: 109, z: 272}
+- {XRo: 90.34357, YRo: 21.66162, radius: 5, world: boatworld, x: 133, y: 109, z: 336}
+- {XRo: 90.697754, YRo: 23.158073, radius: 5, world: boatworld, x: 78, y: 109, z: 399}
+- {XRo: 180.62573, YRo: 23.799416, radius: 5, world: boatworld, x: -6, y: 109, z: 397}
+- {XRo: 180.62573, YRo: 23.799416, radius: 5, world: boatworld, x: -53, y: 109, z: 397}
+- {XRo: 88.83954, YRo: 21.305273, radius: 5, world: boatworld, x: -109, y: 109, z: 414}
+- {XRo: 270.3307, YRo: 23.941881, radius: 5, world: boatworld, x: -74, y: 109, z: 410}
+- {XRo: 270.3307, YRo: 23.941881, radius: 5, world: boatworld, x: -74, y: 109, z: 378}
+- {XRo: 270.3307, YRo: 23.941881, radius: 5, world: boatworld, x: -74, y: 109, z: 334}
+- {XRo: 91.26166, YRo: 24.4407, radius: 5, world: boatworld, x: -39, y: 109, z: 337}
+- {XRo: 91.26166, YRo: 24.4407, radius: 5, world: boatworld, x: -39, y: 109, z: 371}
+- {XRo: 91.26166, YRo: 24.4407, radius: 5, world: boatworld, x: -39, y: 109, z: 411}
+- {XRo: 271.9001, YRo: 24.796888, radius: 5, world: boatworld, x: 31, y: 94, z: 414}
+- {XRo: 270.61682, YRo: 5.271652, radius: 5, world: boatworld, x: 31, y: 94, z: 330}
+description: ??????????§Ô??????????????????????????????????????????????
+raceawards: {}
+racetype: boat
+reason: NONE
+records: {}
+state: P
