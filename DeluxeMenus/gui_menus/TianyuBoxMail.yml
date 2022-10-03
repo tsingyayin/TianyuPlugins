@@ -149,3 +149,48 @@ items:
       - '[console] lp user %player_name% permission settemp tianyu.box.2022092117 true 180d'
       - '[console] eco give %player_name% 30000'
       - '[refresh]'
+
+  '2022100222_u':
+    material: BLACK_CONCRETE
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f2022年10月2日22:00更新失败补偿'
+    lore:
+      - '&e补偿内容'
+      - '&b音符&f：&a3000'
+      - ''
+      - '&b已经领取'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.box.2022100222
+    left_click_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+  '2022100222_a':
+    material: CHEST
+    slot: 3
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&f2022年10月2日22:00更新失败补偿'
+    lore:
+      - '&e补偿内容'
+      - '&b音符&f：&a3000'
+      - ''
+      - '&c未领取'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: tianyu.default
+        enter_time:
+          type: javascript
+          expression: '%player_first_join% < 1664722336227'
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[console] lp user %player_name% permission settemp tianyu.box.2022100222 true 180d'
+      - '[console] eco give %player_name% 3000'
+      - '[refresh]'

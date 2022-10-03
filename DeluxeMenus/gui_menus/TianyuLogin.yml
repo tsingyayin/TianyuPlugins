@@ -51,8 +51,8 @@ items:
           type: has permission
           permission: tianyu.login.20221001
   'login1':
-    material: IRON_INGOT
-    amount: 10
+    material: DIAMOND_BLOCK
+    amount: 1
     slot: 20
     priority: 2
     update: true
@@ -69,7 +69,8 @@ items:
           type: has permission
           permission: tianyu.default
     left_click_commands:
-      - '[console] give %player_name% iron_ingot 10'
+      - '[console] give %player_name% diamond_block 1'
+      - '[console] eco give %player_name% 600'
       - '[console] lp user %player_name% permission settemp tianyu.login.20221001 true 180d'
       - '[refresh]'
       - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
@@ -106,7 +107,7 @@ items:
           permission: tianyu.login.20221002
   'login2':
     material: IRON_INGOT
-    amount: 10
+    amount: 1
     slot: 21
     priority: 2
     update: true
@@ -123,7 +124,7 @@ items:
           type: has permission
           permission: tianyu.default
     left_click_commands:
-      - '[console] give %player_name% iron_ingot 10'
+      - '[console] eco give %player_name% 600'
       - '[console] lp user %player_name% permission settemp tianyu.login.20221002 true 180d'
       - '[refresh]'
       - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
@@ -177,7 +178,7 @@ items:
           type: has permission
           permission: tianyu.default
     left_click_commands:
-      - '[console] give %player_name% iron_ingot 10'
+      - '[console] eco give %player_name% 600'
       - '[console] lp user %player_name% permission settemp tianyu.login.20221003 true 180d'
       - '[refresh]'
       - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
@@ -213,8 +214,8 @@ items:
           type: has permission
           permission: tianyu.login.20221004
   'login4':
-    material: IRON_INGOT
-    amount: 10
+    material: GOLD_INGOT
+    amount: 1
     slot: 23
     priority: 2
     update: true
@@ -231,7 +232,8 @@ items:
           type: has permission
           permission: tianyu.default
     left_click_commands:
-      - '[console] give %player_name% iron_ingot 10'
+      - '[console] give %player_name% dead_brain_coral_block 350'
+      - '[console] eco give %player_name% 1000'
       - '[console] lp user %player_name% permission settemp tianyu.login.20221004 true 180d'
       - '[refresh]'
       - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
@@ -267,8 +269,8 @@ items:
           type: has permission
           permission: tianyu.login.20221005
   'login5':
-    material: IRON_INGOT
-    amount: 10
+    material: DIAMOND
+    amount: 1
     slot: 24
     priority: 2
     update: true
@@ -285,7 +287,7 @@ items:
           type: has permission
           permission: tianyu.default
     left_click_commands:
-      - '[console] give %player_name% iron_ingot 10'
+      - '[console] eco give %player_name% 800'
       - '[console] lp user %player_name% permission settemp tianyu.login.20221005 true 180d'
       - '[refresh]'
       - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
@@ -321,8 +323,8 @@ items:
           type: has permission
           permission: tianyu.login.20221006
   'login6':
-    material: IRON_INGOT
-    amount: 10
+    material: DIAMOND
+    amount: 1
     slot: 25
     priority: 2
     update: true
@@ -339,7 +341,7 @@ items:
           type: has permission
           permission: tianyu.default
     left_click_commands:
-      - '[console] give %player_name% iron_ingot 10'
+      - '[console] eco give %player_name% 800'
       - '[console] lp user %player_name% permission settemp tianyu.login.20221006 true 180d'
       - '[refresh]'
       - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
@@ -375,8 +377,8 @@ items:
           type: has permission
           permission: tianyu.login.20221007
   'login7':
-    material: IRON_INGOT
-    amount: 10
+    material: NETHERITE_INGOT
+    amount: 2
     slot: 26
     priority: 2
     update: true
@@ -393,7 +395,8 @@ items:
           type: has permission
           permission: tianyu.default
     left_click_commands:
-      - '[console] give %player_name% iron_ingot 10'
+      - '[console] give %player_name% netherite_ingot 2'
+      - '[console] eco give %player_name% 1200'
       - '[console] lp user %player_name% permission settemp tianyu.login.20221007 true 180d'
       - '[refresh]'
       - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'

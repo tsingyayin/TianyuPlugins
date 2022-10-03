@@ -1,4 +1,4 @@
-﻿location: world:258.238:70.000:127.756
+﻿location: world:257.8:70.000:127.756
 enabled: true
 display-range: 48
 update-range: 48
@@ -21,11 +21,12 @@ pages:
     height: 0.3
   - content: '&d欧皇榜'
     height: 0.3
-  - content: '&e排名 &f次数 &b玩家名称'
+  - content: '&e鉴于欧皇指标不一，故此处仅描述，不排名'
     height: 0.3
-  - content: '&e1st &f1 &bqyjy'
+  - content: '&e一发入魂 &bqyjy'
     height: 0.3
-
+  - content: '&e三黄蛋 &bBsetow'
+    height: 0.3
   - content: '&e=================================='
     height: 0.3
   - content: '上述数据以管理员依据服务器后台统计结果为准。'

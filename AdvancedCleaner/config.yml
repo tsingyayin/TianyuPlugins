@@ -55,7 +55,7 @@ entity:
   limit:
     ZOMBIE: 8
     SKELETON: 8
-    VILLAGER: 10
+    VILLAGER: 20
     PIG: 6
     COW: 6
     CHICKEN: 6

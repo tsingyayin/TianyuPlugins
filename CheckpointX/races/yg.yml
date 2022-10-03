@@ -1,0 +1,21 @@
+!!io.github.theriverelder.checkpointx.model.RaceData
+author: TsingYayin
+available: true
+checkpoints:
+- {XRo: 0.007019043, YRo: 8.692286, radius: 1, world: boatworld, x: 43, y: 94, z: 308}
+- {XRo: 179.57092, YRo: 9.19113, radius: 1, world: boatworld, x: 55, y: 101, z: 308}
+- {XRo: 219.60895, YRo: 6.412278, radius: 1, world: boatworld, x: 58, y: 103, z: 291}
+- {XRo: 179.34021, YRo: 10.331247, radius: 1, world: boatworld, x: 43, y: 103, z: 291}
+- {XRo: 359.0443, YRo: -1.8962564, radius: 1, world: boatworld, x: 34, y: 112, z: 309}
+- {XRo: 89.17786, YRo: -2.5374846, radius: 1, world: boatworld, x: 50, y: 116, z: 309}
+- {XRo: 87.18048, YRo: -5.7021704, radius: 1, world: boatworld, x: 50, y: 119, z: 325}
+- {XRo: 87.6084, YRo: 2.2076616, radius: 1, world: boatworld, x: 53, y: 129, z: 333}
+- {XRo: 179.60608, YRo: -5.6308904, radius: 1, world: boatworld, x: 53, y: 143, z: 353}
+- {XRo: 180.39478, YRo: 9.333642, radius: 1, world: boatworld, x: 11, y: 134, z: 350}
+- {XRo: 180.27393, YRo: 15.533398, radius: 1, world: boatworld, x: -5, y: 146, z: 350}
+description: 无描述
+raceawards: {}
+racetype: walk
+reason: NONE
+records: {}
+state: P
