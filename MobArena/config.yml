@@ -134,7 +134,7 @@ arenas:
       clear-wave-leeway: 0
       soft-restore: false
       soft-restore-drops: false
-      require-empty-inv-join: false
+      require-empty-inv-join: true
       require-empty-inv-spec: false
       pvp-enabled: false
       monster-infight: false

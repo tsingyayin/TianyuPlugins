@@ -1,0 +1,24 @@
+location: world:309:69.00:25
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 90.0
+down-origin: false
+pages:
+- lines:
+  - content: 'CheckpointX系统：差事bcg'
+    height: 0.3
+  - content: '&6差事作者&a：&b%checkpointx_author_bcg% &6类型&a：%checkpointx_racetype_bcg% '
+    height: 0.3
+  - content: '&6差事描述&a：&b%checkpointx_description_bcg% '
+    height: 0.3
+  - content: '&e========历史成绩记录========='
+    height: 0.3
+  - content: '&e第一名&a：&b%checkpointx_firstname_bcg% &a用时 &b%checkpointx_firstduration_bcg%'
+    height: 0.3
+  - content: '&6第二名&a：&b%checkpointx_secondname_bcg% &a用时 &b%checkpointx_secondduration_bcg%'
+    height: 0.3
+  - content: '&c第三名&a：&b%checkpointx_thirdname_bcg% &a用时 &b%checkpointx_thirdduration_bcg%'
+    height: 0.3
+  actions: {}

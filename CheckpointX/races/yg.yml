@@ -1,21 +1,104 @@
-!!io.github.theriverelder.checkpointx.model.RaceData
+reason: ''
+racetype: walk
 author: TsingYayin
 available: true
+description: 跑完冰船后再从跑酷回到起点，看看人生是不是也会这样兜兜转转回到开始
 checkpoints:
-- {XRo: 0.007019043, YRo: 8.692286, radius: 1, world: boatworld, x: 43, y: 94, z: 308}
-- {XRo: 179.57092, YRo: 9.19113, radius: 1, world: boatworld, x: 55, y: 101, z: 308}
-- {XRo: 219.60895, YRo: 6.412278, radius: 1, world: boatworld, x: 58, y: 103, z: 291}
-- {XRo: 179.34021, YRo: 10.331247, radius: 1, world: boatworld, x: 43, y: 103, z: 291}
-- {XRo: 359.0443, YRo: -1.8962564, radius: 1, world: boatworld, x: 34, y: 112, z: 309}
-- {XRo: 89.17786, YRo: -2.5374846, radius: 1, world: boatworld, x: 50, y: 116, z: 309}
-- {XRo: 87.18048, YRo: -5.7021704, radius: 1, world: boatworld, x: 50, y: 119, z: 325}
-- {XRo: 87.6084, YRo: 2.2076616, radius: 1, world: boatworld, x: 53, y: 129, z: 333}
-- {XRo: 179.60608, YRo: -5.6308904, radius: 1, world: boatworld, x: 53, y: 143, z: 353}
-- {XRo: 180.39478, YRo: 9.333642, radius: 1, world: boatworld, x: 11, y: 134, z: 350}
-- {XRo: 180.27393, YRo: 15.533398, radius: 1, world: boatworld, x: -5, y: 146, z: 350}
-description: 无描述
-raceawards: {}
-racetype: walk
-reason: NONE
-records: {}
+- world: boatworld
+  xRo: 0.14111328
+  yRo: 5.344502
+  x: 43
+  y: 94
+  z: 308
+  radius: 2
+- world: boatworld
+  xRo: 268.85736
+  yRo: 14.109502
+  x: 55
+  y: 101
+  z: 308
+  radius: 2
+- world: boatworld
+  xRo: 179.28381
+  yRo: 5.70084
+  x: 58
+  y: 103
+  z: 291
+  radius: 2
+- world: boatworld
+  xRo: 87.003265
+  yRo: -0.5701371
+  x: 43
+  y: 103
+  z: 291
+  radius: 2
+- world: boatworld
+  xRo: 358.99756
+  yRo: 8.337357
+  x: 34
+  y: 112
+  z: 309
+  radius: 2
+- world: boatworld
+  xRo: 90.35211
+  yRo: 13.824394
+  x: 50
+  y: 116
+  z: 309
+  radius: 2
+- world: boatworld
+  xRo: 90.49463
+  yRo: 3.705491
+  x: 50
+  y: 119
+  z: 325
+  radius: 2
+- world: boatworld
+  xRo: 90.209595
+  yRo: 9.833847
+  x: 53
+  y: 129
+  z: 333
+  radius: 2
+- world: boatworld
+  xRo: 179.85443
+  yRo: 6.6984134
+  x: 53
+  y: 143
+  z: 353
+  radius: 2
+- world: boatworld
+  xRo: 180.6383
+  yRo: 12.327949
+  x: 11
+  y: 134
+  z: 350
+  radius: 2
+- world: boatworld
+  xRo: 180.2107
+  yRo: 19.453918
+  x: -3
+  y: 146
+  z: 350
+  radius: 2
+orders:
+  '1':
+    duration: 75.258
+    award:
+    - give %player_name% minecraft:gold_ingot 1
+    baseline: 300.0
+    champion: v0v_tempest
+  '2':
+    duration: 0.0
+    award:
+    - give %player_name% minecraft:iron_ingot 1
+    baseline: 350.0
+    champion: ''
+  '3':
+    duration: 0.0
+    award:
+    - give %player_name% minecraft:copper_ingot 1
+    baseline: 400.0
+    champion: ''
 state: P
+baseline: 1000.0

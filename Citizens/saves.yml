@@ -165,14 +165,14 @@ npc:
           cycle: false
         provider: linear
       location:
-        bodyYaw: -56.948513
+        bodyYaw: 53.73033
         world: world
         x: '306.5088'
         y: '64.0'
         z: '11.2226'
-        yaw: '-56.9485'
-        pitch: '0.0'
-    traitnames: gravity,type,location,waypoints,lookclose,commandtrait,mounttrait,owner,age,speech,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+        yaw: '53.7303'
+        pitch: '-11.9519'
+    traitnames: inventory,scoreboardtrait,gravity,mounttrait,commandtrait,spawned,location,waypoints,lookclose,smoothrotationtrait,owner,type,skintrait,age,speech
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -216,85 +216,12 @@ npc:
           '0': 0.0
           '1': 360.0
       mounttrait:
-        mountedon: 4fedc3f5-1519-48e5-875f-ff571a62cf3e
+        mountedon: bb51b753-f70e-42a1-adf5-1370e2223d62
       commandtrait:
         cost: -1.0
         executionMode: RANDOM
         experienceCost: -1.0
         hideErrorMessages: false
-        commands:
-          '0':
-            command: say 天雨镇的南侧外海--宁济海上，建造有黑山大叔设计的印钞机
-            hand: LEFT
-            player: true
-            op: true
-            cooldown: 0
-            globalcooldown: 5
-            n: -1
-            delay: 0
-          '1':
-            command: say 天雨镇的西北是天雨镇晨曦镇区，有一些简单的生电机器
-            hand: LEFT
-            player: true
-            op: true
-            cooldown: 0
-            globalcooldown: 5
-            n: -1
-            delay: 0
-          '2':
-            command: say 天雨镇的西侧是层岩镇，服务器最大的地下城镇
-            hand: LEFT
-            player: true
-            op: true
-            cooldown: 0
-            globalcooldown: 5
-            n: -1
-            delay: 0
-          '3':
-            command: say 南边的天雨桥区名义上是服主和管理员的住所，不能进入
-            hand: LEFT
-            player: true
-            op: true
-            cooldown: 0
-            globalcooldown: 5
-            n: -1
-            delay: 0
-          '4':
-            command: say 西边的绘玖桥区有武器盔甲类的村民交易
-            hand: LEFT
-            player: true
-            op: true
-            cooldown: 0
-            globalcooldown: 5
-            n: -1
-            delay: 0
-          '5':
-            command: say 天雨镇是服务器的重生点城镇，这里有各种基本交互功能
-            hand: LEFT
-            player: true
-            op: true
-            cooldown: 0
-            globalcooldown: 5
-            n: -1
-            delay: 0
-          '6':
-            command: say 西南的落英桥区有书籍类的村民交易
-            hand: LEFT
-            player: true
-            op: true
-            cooldown: 0
-            globalcooldown: 5
-            n: -1
-            delay: 0
-          '7':
-            command: say 东边的拾霖桥区有建材类的村民交易
-            hand: LEFT
-            player: true
-            op: true
-            cooldown: 0
-            globalcooldown: 5
-            n: -1
-            delay: 0
         cooldowns:
           fb0a69dd-42ff-3a5f-84d3-5d6f7f6f1ea5:
             lastUsedId: 1
@@ -395,7 +322,7 @@ npc:
           z: '25.7'
           yaw: '177.5002'
           pitch: '-1.0796'
-    traitnames: type,location,waypoints,sitting,lookclose,commandtrait,mounttrait,owner,age,speech,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+    traitnames: inventory,sitting,scoreboardtrait,mounttrait,spawned,commandtrait,location,waypoints,lookclose,smoothrotationtrait,owner,type,skintrait,age,speech
     navigator:
       speedmodifier: '0.30000001192092896'
       avoidwater: false
@@ -563,12 +490,12 @@ npc:
           type_key: map
           amount: 1
       mounttrait:
-        mountedon: 4714318d-8e53-48f7-99fc-3ed5e3bd032b
+        mountedon: f849ce63-b6ea-4dde-af28-705b16a71374
       inventory:
         '0':
           type_key: map
           amount: 1
-    traitnames: type,location,equipment,sitting,lookclose,commandtrait,mounttrait,owner,age,speech,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+    traitnames: inventory,sitting,scoreboardtrait,mounttrait,spawned,commandtrait,location,lookclose,smoothrotationtrait,owner,type,equipment,skintrait,age,speech
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -584,12 +511,12 @@ npc:
         signature: mvEqdzriR1KfVYXv6x7jxsXViYS7rH7kM8L9SC+UOptjPKpUZrVpIWxdRaz3escCsG70g2MjMCvMoi848nXz81mreb7v0CF0yI/ANJBRTLH2Hvano4YyRTd00wguXwlFYfEAVVpwsw0kHAV/UItyQPnB0N+ZW+eYN4Kk5sn1NTYb3n6cDPOOMfXthVGoOf8Jck0vSsazd7SfVxlRIYMj2UBnNcB+TODXB8M/rSQt+P2yoUjPWQLEMapLO4z9/wxdGeCW8wZfzitbF8CZO08MKCF79nhHVayKxFvrHlQMG3VJLTkufl5gc1Kjb0OjD1OWAudF0n6O9ABrSDTYwQ3ILWS+Cog1shC5jSryMXrAfACtiDuHbRvQC6YrKRk6Ml5wrCjYO0VFrxVrHSlS037VoYdVJ6rRrQfqeamYDpUo9xhLVSALVHtD2Wg4aAZRzn9HK4oLAujIwGND508Fs+BkN3OR7ddiGFeHT6K22cuneohaxAFp7ZAk0prKqeKgusN8ZNzMWZbEWkNTcE6YqBLfU3n5mFxlJpeJ2r3TgnJtp+pCl3DqksIi4v+S7LAsb1QegbeST29VwLuYlckZ8ZuiknM+WLVJ8VPeoEg4pkzSv2uxGpufZbthR/RBpLYwWLHQYV21Zbg5x1CU4vUU9pEx+jyyzYpJP5rTu3JuLLfVlbg=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5ODE0NTkwNDExMSwKICAicHJvZmlsZUlkIiA6ICI1MzRmMmI2MDNkNDI0ZjVhODRmMWM2YWUxMGFiNTM2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUX0ZvcmV2ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDEwMGU5ODI1YTFmZTM3M2Q4ZDAyYjcwNGUyNTBiNjcwNzUwNDAyNDZlYmJhNzkyOWZkZjRjMDlhYzBmM2I2MyIKICAgIH0KICB9Cn0=
       location:
-        bodyYaw: 6.845955
+        bodyYaw: 6.3638077
         world: world
         x: '311.3186'
         y: '64.0'
         z: '8.1959'
-        yaw: '6.846'
+        yaw: '6.3638'
         pitch: '0.0'
       commandtrait:
         cost: -1.0
@@ -624,6 +551,8 @@ npc:
           6d25e67e-9256-3e70-93bf-1a604ce0f8d1:
             lastUsedId: 0
           37cfa081-6a79-39dc-a45c-c863ae29e9ea:
+            lastUsedId: 0
+          b36af080-5582-3a92-9f85-f0461bdf827e:
             lastUsedId: 0
           812e4c32-853b-319d-b057-e4364d523d12:
             lastUsedId: 0
@@ -736,7 +665,7 @@ npc:
           '1': 360.0
       mounttrait:
         mountedon: 6484e8ad-5fa6-48a9-b47c-2e8ca3b03fe1
-    traitnames: type,location,lookclose,commandtrait,mounttrait,owner,age,speech,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+    traitnames: inventory,scoreboardtrait,mounttrait,spawned,commandtrait,location,lookclose,smoothrotationtrait,owner,type,skintrait,age,speech
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -859,6 +788,8 @@ npc:
             lastUsedId: 0
           187aaece-1baa-320b-8f02-1c644f81b084:
             lastUsedId: 0
+          c3e914d2-01b1-3b29-b8e8-7c3a21b9d33e:
+            lastUsedId: 0
           1079e988-d3d6-3f76-8962-7efc16af95d8:
             lastUsedId: 0
       spawned: true
@@ -879,7 +810,7 @@ npc:
           '0': 0.0
           '1': 360.0
       mounttrait:
-        mountedon: 8f455755-04a2-480c-a888-3133a1650b5d
+        mountedon: 50f24d6b-21a8-42dd-b5c1-3fb14d364fe2
       location:
         bodyYaw: 96.2166
         world: world
@@ -890,7 +821,7 @@ npc:
         pitch: '-2.1224'
       owner:
         uuid: 1ef9db48-ec66-358b-8a8f-ce7bd9fb0cd7
-    traitnames: type,location,sitting,lookclose,commandtrait,mounttrait,owner,age,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+    traitnames: inventory,sitting,scoreboardtrait,mounttrait,spawned,commandtrait,location,lookclose,smoothrotationtrait,owner,type,skintrait,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -915,13 +846,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -65.56973
+        bodyYaw: -82.98051
         world: world
         x: '351.535'
         y: '64.0'
         z: '48.445'
-        yaw: '-65.5697'
-        pitch: '-8.7852'
+        yaw: '-82.9805'
+        pitch: '6.163'
       age:
         age: 0
         locked: true
@@ -973,6 +904,8 @@ npc:
             lastUsedId: 0
           5f4f9612-b878-3a54-ae59-416da286e223:
             lastUsedId: 0
+          8066e6c6-f923-32fe-8d3c-040f268d4862:
+            lastUsedId: 0
           9d0fcde8-6eee-35e2-9694-1ff14706452a:
             lastUsedId: 0
           df49bd6b-98f8-3289-ab5a-918d774b892c:
@@ -1001,9 +934,11 @@ npc:
             lastUsedId: 0
           ab520ed8-72c7-3eef-80ef-a54c1cf1e109:
             lastUsedId: 0
+          f062e25a-00e5-31da-9ef9-04a49f0a152e:
+            lastUsedId: 0
       type: PLAYER
       spawned: true
-    traitnames: type,location,lookclose,commandtrait,mounttrait,owner,age,speech,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+    traitnames: inventory,scoreboardtrait,mounttrait,spawned,commandtrait,location,lookclose,smoothrotationtrait,owner,type,skintrait,age,speech
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1030,7 +965,7 @@ npc:
           '0': 0.0
           '1': 360.0
       mounttrait:
-        mountedon: d2924376-ef87-439c-a9df-816676865a65
+        mountedon: 819f02f4-e5cc-4cfc-ac44-c72d18ab9cbd
       location:
         bodyYaw: -92.7104
         world: world
@@ -1085,6 +1020,8 @@ npc:
             lastUsedId: 0
           072df16e-6341-3d21-b424-a1dc18b7866b:
             lastUsedId: 0
+          8e5ce52e-c2cc-3064-91ec-8deff24f4bd1:
+            lastUsedId: 0
           eb1be183-354d-36c8-8bb7-320b7f0852c1:
             lastUsedId: 0
           b92ad873-bb84-3d98-9d8d-154338046222:
@@ -1105,7 +1042,7 @@ npc:
             lastUsedId: 0
       type: PLAYER
       spawned: true
-    traitnames: type,location,sitting,lookclose,commandtrait,mounttrait,owner,age,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+    traitnames: inventory,sitting,scoreboardtrait,mounttrait,commandtrait,spawned,location,lookclose,smoothrotationtrait,owner,type,skintrait,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1132,7 +1069,7 @@ npc:
           '0': 0.0
           '1': 360.0
       mounttrait:
-        mountedon: f77fddf1-c32c-4ef3-bea3-49f8b1dae0fe
+        mountedon: 9ef2205f-8332-4fc9-bd47-707ead5283c4
       location:
         bodyYaw: -84.5444
         world: world
@@ -1175,23 +1112,37 @@ npc:
             n: -1
             delay: 0
         cooldowns:
-          5f4f9612-b878-3a54-ae59-416da286e223:
-            lastUsedId: 0
           fb0a69dd-42ff-3a5f-84d3-5d6f7f6f1ea5:
             lastUsedId: 0
           4ba82750-af5c-3bc0-9f1c-fba9af2904fa:
             lastUsedId: 0
-          df49bd6b-98f8-3289-ab5a-918d774b892c:
-            lastUsedId: 0
           1ef9db48-ec66-358b-8a8f-ce7bd9fb0cd7:
-            lastUsedId: 0
-          5d78ddea-07d1-395e-9a4d-19b573fd33fd:
             lastUsedId: 0
           2933a649-6bce-33bb-bc5f-553f0486d9ef:
             lastUsedId: 0
-          921950fa-be68-3e42-8769-4d1535b9a56a:
-            lastUsedId: 0
           072df16e-6341-3d21-b424-a1dc18b7866b:
+            lastUsedId: 0
+          8e5ce52e-c2cc-3064-91ec-8deff24f4bd1:
+            lastUsedId: 0
+          39400c20-737d-3910-9ca9-60d61b51956f:
+            lastUsedId: 0
+          af71cc6a-fd12-32a0-ae6e-483ad88028b0:
+            lastUsedId: 0
+          b4414a20-84c1-3a23-a333-2e1011429636:
+            lastUsedId: 0
+          68267c17-f246-34a7-a412-65cddee90f33:
+            lastUsedId: 0
+          37cfa081-6a79-39dc-a45c-c863ae29e9ea:
+            lastUsedId: 0
+          76ed99b1-7cfa-31e4-8f54-5fa813e2d787:
+            lastUsedId: 0
+          5f4f9612-b878-3a54-ae59-416da286e223:
+            lastUsedId: 0
+          df49bd6b-98f8-3289-ab5a-918d774b892c:
+            lastUsedId: 0
+          5d78ddea-07d1-395e-9a4d-19b573fd33fd:
+            lastUsedId: 0
+          921950fa-be68-3e42-8769-4d1535b9a56a:
             lastUsedId: 0
           cdda6e3d-7f36-3f4c-b028-e7ab4bff4486:
             lastUsedId: 0
@@ -1199,11 +1150,7 @@ npc:
             lastUsedId: 0
           1cf6db5d-5c95-3732-ac6b-1fa73de58f4e:
             lastUsedId: 0
-          39400c20-737d-3910-9ca9-60d61b51956f:
-            lastUsedId: 0
           243b1a65-b1d3-35ce-856e-cbe24db899da:
-            lastUsedId: 0
-          af71cc6a-fd12-32a0-ae6e-483ad88028b0:
             lastUsedId: 0
           6ad157ef-ddce-3475-a04e-7c94e25e6b2f:
             lastUsedId: 0
@@ -1211,21 +1158,13 @@ npc:
             lastUsedId: 0
           0f4181d1-2a87-3f59-ad96-6a2d0009b30e:
             lastUsedId: 0
-          b4414a20-84c1-3a23-a333-2e1011429636:
-            lastUsedId: 0
-          68267c17-f246-34a7-a412-65cddee90f33:
-            lastUsedId: 0
           c3e914d2-01b1-3b29-b8e8-7c3a21b9d33e:
-            lastUsedId: 0
-          37cfa081-6a79-39dc-a45c-c863ae29e9ea:
             lastUsedId: 0
           05f31594-26d9-316e-a3ee-7e3fa348c7f0:
             lastUsedId: 0
-          76ed99b1-7cfa-31e4-8f54-5fa813e2d787:
-            lastUsedId: 0
       type: PLAYER
       spawned: true
-    traitnames: type,location,sitting,lookclose,commandtrait,mounttrait,owner,age,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+    traitnames: inventory,sitting,scoreboardtrait,mounttrait,spawned,commandtrait,location,lookclose,smoothrotationtrait,owner,type,skintrait,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1242,13 +1181,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -142.89182
+        bodyYaw: 131.85812
         world: world
         x: '273.0243'
         y: '65.0'
         z: '-6.6657'
-        yaw: '-142.8918'
-        pitch: '17.097'
+        yaw: '166.8581'
+        pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
         signature: YANNgSPqXPaJYnNK6xYFNuQOlfA2Awkx6cdGs7gY8fq7lQMkIdCO4DOtKvzHccInTAk4plHNzSiHpA4v7fgZPNYQTbHJB8q+ifktPFqv3T3g+ty7rxfDvl9vz0B1mJnyTBrOnI/Ybm2mow5nI6mpFlWznM96eaoQBCAW+kzhYz5OEfbhOJ9sL/0wxHyKbqQkn20B84nkBGIK7Us8dJlzVKVstrhoQGt9RqXMdy+Rltj6+X51NZaRj/xwxjA+KsylI9RP7XNsQtEfxtWLIq8ZnnRQpEkvwEZN1VtCdNTmN98680ek/NJoh8D/6IAxFwtXWO/9zaE1DQtwYR/PK/JrimZ1KItshcF139OY/gOpwRJtPJx1xlVHV41+LU48XF0QvP28x5cbvNdxgM9dwi8UcW9i0eW+8s4UTeitwJ5zBY/Yv4TAxTCYe81uD0zZtyiQOjzJni9l9VMc8axwk6tif4EMn9NxpfUmcVitq5T8/y2FIDy3aY0AiP7+7zgvp38eEk7vrLni1Qo6atTwa3vL/5J20dC6uX4DCtMUJRLi1gbj8UiAWfIcYGyLQ/7B+lT/olCCwwumXF2MvYhRq2ey56STPtZhkq+M+tv9vMoyipvPbTSbYXHqXkcKuWkRR2VEMpybsKBECy1rkdaub8QLTVl1XKKUcX9Ih3HHTTTBPpI=
@@ -1275,7 +1214,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: gravity,type,location,lookclose,mounttrait,owner,nquestgiver,age,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+    traitnames: inventory,scoreboardtrait,gravity,mounttrait,spawned,location,lookclose,smoothrotationtrait,nquestgiver,owner,type,skintrait,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1318,7 +1257,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: age,type,smoothrotationtrait,location,inventory,scoreboardtrait,spawned,lookclose,mounttrait,skintrait,owner
+    traitnames: inventory,scoreboardtrait,owner,type,mounttrait,skintrait,age,spawned,location,lookclose,smoothrotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1365,7 +1304,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: age,gravity,type,smoothrotationtrait,location,inventory,scoreboardtrait,spawned,lookclose,mounttrait,skintrait,owner
+    traitnames: inventory,scoreboardtrait,gravity,owner,type,mounttrait,skintrait,age,spawned,location,lookclose,smoothrotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1412,7 +1351,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: age,gravity,type,smoothrotationtrait,location,inventory,scoreboardtrait,spawned,lookclose,mounttrait,skintrait,owner
+    traitnames: inventory,scoreboardtrait,gravity,owner,type,mounttrait,skintrait,age,spawned,location,lookclose,smoothrotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1459,7 +1398,7 @@ npc:
           '1': 360.0
       gravity:
         enabled: true
-    traitnames: age,gravity,type,smoothrotationtrait,location,inventory,scoreboardtrait,spawned,lookclose,mounttrait,skintrait,owner
+    traitnames: inventory,scoreboardtrait,owner,gravity,type,mounttrait,skintrait,age,spawned,location,lookclose,smoothrotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1491,7 +1430,7 @@ npc:
       owner:
         uuid: 1ef9db48-ec66-358b-8a8f-ce7bd9fb0cd7
       type: PLAYER
-    traitnames: age,type,location,inventory,scoreboardtrait,spawned,mounttrait,skintrait,owner
+    traitnames: inventory,scoreboardtrait,owner,type,mounttrait,skintrait,age,spawned,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1538,7 +1477,7 @@ npc:
       owner:
         uuid: 1ef9db48-ec66-358b-8a8f-ce7bd9fb0cd7
       type: PLAYER
-    traitnames: age,gravity,type,smoothrotationtrait,location,inventory,scoreboardtrait,spawned,lookclose,mounttrait,skintrait,owner
+    traitnames: inventory,scoreboardtrait,owner,gravity,type,mounttrait,skintrait,age,spawned,location,lookclose,smoothrotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1583,7 +1522,7 @@ npc:
       owner:
         uuid: 1ef9db48-ec66-358b-8a8f-ce7bd9fb0cd7
       type: PLAYER
-    traitnames: age,type,smoothrotationtrait,location,inventory,scoreboardtrait,spawned,lookclose,mounttrait,skintrait,owner
+    traitnames: inventory,scoreboardtrait,owner,type,mounttrait,skintrait,age,spawned,location,lookclose,smoothrotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1674,14 +1613,14 @@ npc:
       spawned: true
       type: PLAYER
       mounttrait:
-        mountedon: 6c009ff7-c321-49a8-b3bf-a9ba9eff758e
+        mountedon: 243f402b-def0-4f18-ab51-bbf35a2f8cc5
       skintrait:
         fetchDefaultSkin: true
         signature: IildUTl5ASQnVYevRV3k87MEWAh1UQKV1xGW0Xh7+sME/wTpfquOti9QRamM7NDBs4K6jrGc1tJTDI9FTrip/02a2W7XhWni2Xsh6o0/3ikE1GjgxSV7f4vSr3MYMKytFYESsOjBxRkfzNkETM9a+aRCGuBiMjLGNM29rz0bEecjvdTEo7It+dRhznBT2tm0YK1OO1G97XtmvzRcS1/rB+IIg3FAdQZv9/n9EbVbqIYq4KShJotIy6eH6iHqY2SPEdboyD5TT1mhCTPUj99K7viZKq1uSIVdSJZ/wj19O8E7/doRM8ySLZipflIf+aKYH76f5S3sJgiFpYUD41yjYCsnU/oTXmTHqH03o0bZcA/N+Tk1Y0ZIL76uUizislbeuK12bbeGOakGZs24jIRvmXifhf1OdGy+RnIRvciwziJQcAvLaad7t/oRshr7wB5q+F3qm8VhI28SjpEQaF799GkT7+zH0fZJwXOhLGvdBb1rZYiv6tTA9dD05OKk5dHIWLqbMEOSMzj2OFXJDRPAfvlDc6VPQSrJgKVdc1yM4/jSp53lUa2UHXPH5RPjuhTW2Gu2YxLhqppPPF6+FkuX4SGt2zbJBj2QamNsx3/WLYGKf/MGhyCSTFLHkMGkh7DQOssojPanHfFrGx2S+ntyzBnxI0SlboYEcUU07NJy/As=
         skinName: c50828da-1013-4b7b-bdeb-0c0eab1ecc7a
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwODY1MjkyOTYyMSwKICAicHJvZmlsZUlkIiA6ICI1YjRmMzk2NzY1Y2E0YjExOGI4NTY4ZjZiZjRjNWM0MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJicm93YXRhbGFhZmFjIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkYTkxYjYxMDVlMDdhNmY4MWY3ZTA4NzFlNzQ5MGE5YTMyZTAyYjI3ZGZmY2RiODVlNGNjNTI2YWRlY2EzYWMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
         updateSkins: false
-    traitnames: type,location,sitting,lookclose,commandtrait,mounttrait,owner,age,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+    traitnames: inventory,sitting,scoreboardtrait,mounttrait,commandtrait,spawned,location,lookclose,smoothrotationtrait,owner,type,skintrait,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1714,23 +1653,27 @@ npc:
             lastUsedId: 0
           4ba82750-af5c-3bc0-9f1c-fba9af2904fa:
             lastUsedId: 0
-          0f4181d1-2a87-3f59-ad96-6a2d0009b30e:
-            lastUsedId: 0
-          58648d5b-2a9b-3811-bf4d-525a9c0401f4:
-            lastUsedId: 0
           df49bd6b-98f8-3289-ab5a-918d774b892c:
             lastUsedId: 0
           1ef9db48-ec66-358b-8a8f-ce7bd9fb0cd7:
+            lastUsedId: 0
+          921950fa-be68-3e42-8769-4d1535b9a56a:
             lastUsedId: 0
           072df16e-6341-3d21-b424-a1dc18b7866b:
             lastUsedId: 0
           1cf6db5d-5c95-3732-ac6b-1fa73de58f4e:
             lastUsedId: 0
-          76ed99b1-7cfa-31e4-8f54-5fa813e2d787:
-            lastUsedId: 0
           39400c20-737d-3910-9ca9-60d61b51956f:
             lastUsedId: 0
           243b1a65-b1d3-35ce-856e-cbe24db899da:
+            lastUsedId: 0
+          0f4181d1-2a87-3f59-ad96-6a2d0009b30e:
+            lastUsedId: 0
+          58648d5b-2a9b-3811-bf4d-525a9c0401f4:
+            lastUsedId: 0
+          c3e914d2-01b1-3b29-b8e8-7c3a21b9d33e:
+            lastUsedId: 0
+          76ed99b1-7cfa-31e4-8f54-5fa813e2d787:
             lastUsedId: 0
       age:
         age: 0
@@ -1770,14 +1713,14 @@ npc:
       spawned: true
       type: PLAYER
       mounttrait:
-        mountedon: a03b0ecc-2162-4782-bfcf-ecaabf189fb0
+        mountedon: bedbf108-9402-4fdd-9dc5-733212315849
       skintrait:
         fetchDefaultSkin: true
         signature: etMvF0knd3lngiEW3RmP2mWabNudHJ9QiG3neV7inQKLHAMoj9/zZs0VoTYjLKzdNGNFLL0pMr9OymBY8Y4lVOG9m2o5PpewkRgsRu3kfEcmS8BUAX+sqZeM6LYAZwv2EqMZSlPBwsvfbk6xqElD1M6LNMumCOqrWA/VxM2FPLytLfCpZe9LVTVHxQIMlRUhndE0iGw3QOFYHIgXa5ue9SFuqSZsgc8KPWt/qQaC/MBaiOUxl4KACjnOXIo/Udsc+4T4EWEsPQBaiBebcim+UAyucYUI+GY6T6165N6/PWgInbcuHQyyVJlWc8rrZimBRUSTIt5AxfstYM46lfCYLsP1+MNe+xp13NfDzVXtMmK3WDvHrjFr+7iZh+7DFDmfz+4IX3RNJsjWBt0qvGX5SyShwKayRrTKmAso0+r9WScn7wudwR1WCf0Md2WkuNY0HXXmePBMvftzLZ8NCoRwclOdfxmJJjkZGZ9hwfgmVBz3lJLH5h/os6ildsVQaa4k6lPrwG/o0XOrnIAROlhsXKOZM+/Sgero1L8C0D4WvKJbFXc+SFZa1+oUDodH7q5zgsqCOnVDdakAjChWVX6VN1ohiosVwhw+f4jYYRlek8YsVqFngDLjFf+KYQOenG30mugtAud71FGBhX3tvOn7UTXMM1TjvobfpMYQ2SRRoZE=
         skinName: 335281e4-44e2-428b-b2f6-7ee85d55b238
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODgyNTk4MzU5NCwKICAicHJvZmlsZUlkIiA6ICIzOTg5OGFiODFmMjU0NmQxOGIyY2ExMTE1MDRkZGU1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YjJjYTExMTUwNGRkZTUwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkzNDhkNzgwMDAwMTk3ZmMxZjIzMjdmYTVjZDA1ZjY4NWExNjMwOGY2ODQwOWM4NWI0MTQyYjk2OWE5Mjg3ZDQiCiAgICB9CiAgfQp9
         updateSkins: false
-    traitnames: type,location,sitting,lookclose,commandtrait,mounttrait,owner,age,smoothrotationtrait,inventory,scoreboardtrait,spawned,skintrait
+    traitnames: inventory,sitting,scoreboardtrait,mounttrait,commandtrait,spawned,location,lookclose,smoothrotationtrait,owner,type,skintrait,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
