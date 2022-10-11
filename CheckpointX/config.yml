@@ -1,0 +1,37 @@
+# 注意：该文件中的例子下过请参照bukkit提供的APi中的Particle的字段名填写，必须全大写+下划线的形式
+
+battle:
+  # 单位：秒，重生惩罚计次的冷却时间，在CD内回重生但不会记录惩罚
+  respawn-punishment-cooldown: 0.5
+  # 检查点
+  checkpoint:
+    # 粒子效果
+    particle:
+      # 两个粒子之间的距离
+      gap: 0.618
+      # 单位：tick，检查点粒子效果生成的时间间隔
+      period: 10
+      # 上一个通过的检查点的粒子效果
+      previous: "VILLAGER_ANGRY"
+      # 当前准备要通过的检查点的粒子效果
+      current: "TOTEM"
+      # 再往后一个要通过的检查点的粒子效果
+      next: "VILLAGER_HAPPY"
+
+race:
+  # 预览设置
+  preview:
+    # 单位：tick，检查点粒子效果生成的时间间隔
+    period: 10
+    # 检查点
+    checkpoint:
+      # 两个粒子之间的距离
+      gap: 0.618
+      # 检查点粒子效果
+      particle: "VILLAGER_HAPPY"
+    # 检查点之间连线
+    link:
+      # 两个粒子之间的距离
+      gap: 0.618
+      # 检查点之间连线的粒子效果
+      particle: "VILLAGER_HAPPY"

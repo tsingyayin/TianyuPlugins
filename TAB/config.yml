@@ -4,13 +4,18 @@ header-footer:
   disable-in-worlds:
     - disabledworld
   header:
+    - ""
     - "&b&l天雨镇服务器 "
     - ""
     - "&f欢迎玩家&d%player%&f&l!"
-    - "&7在线玩家: &f%online%"
-    - ""
+    - "&e当前领地 &a%residence_user_current_res%"
+    - "&e账户余额 &a%vault_eco_balance%"
+    - "" 
   footer:
     - ""
+    - "&e资源包版本&a：&b0.4.0(Build17)"
+    - "&e服务器策略版本&a：&b20221009"
+    - "&e整合包策略版本&a：&b1.4"
   per-world:
     world1:
       header:

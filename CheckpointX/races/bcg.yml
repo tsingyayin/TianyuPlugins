@@ -7,6 +7,7 @@ checkpoints:
 - world: boatworld
   xRo: 359.373
   yRo: 2.4892006
+  race-type: boat
   x: 5
   y: 146
   z: 362
@@ -14,6 +15,7 @@ checkpoints:
 - world: boatworld
   xRo: 271.2599
   yRo: 25.298374
+  race-type: boat
   x: 67
   y: 146
   z: 334
@@ -21,6 +23,7 @@ checkpoints:
 - world: boatworld
   xRo: 180.90234
   yRo: 11.046433
+  race-type: boat
   x: 25
   y: 146
   z: 288
@@ -28,6 +31,7 @@ checkpoints:
 - world: boatworld
   xRo: 359.69336
   yRo: 13.683063
+  race-type: boat
   x: 14
   y: 146
   z: 253
@@ -35,6 +39,7 @@ checkpoints:
 - world: boatworld
   xRo: 91.119354
   yRo: 26.15355
+  race-type: boat
   x: 41
   y: 146
   z: 297
@@ -42,6 +47,7 @@ checkpoints:
 - world: boatworld
   xRo: 2.615387
   yRo: 24.015732
+  race-type: boat
   x: 64
   y: 139
   z: 368
@@ -49,6 +55,7 @@ checkpoints:
 - world: boatworld
   xRo: 269.0511
   yRo: 26.153517
+  race-type: boat
   x: 91
   y: 139
   z: 298
@@ -56,6 +63,7 @@ checkpoints:
 - world: boatworld
   xRo: 180.33252
   yRo: 20.0252
+  race-type: boat
   x: 101
   y: 139
   z: 238
@@ -63,6 +71,7 @@ checkpoints:
 - world: boatworld
   xRo: 270.47607
   yRo: 6.3433266
+  race-type: boat
   x: 36
   y: 139
   z: 256
@@ -70,6 +79,7 @@ checkpoints:
 - world: boatworld
   xRo: 0.0496521
   yRo: 15.250894
+  race-type: boat
   x: 106
   y: 132
   z: 226
@@ -77,6 +87,7 @@ checkpoints:
 - world: boatworld
   xRo: 92.61597
   yRo: 21.806889
+  race-type: boat
   x: 141
   y: 132
   z: 309
@@ -84,6 +95,7 @@ checkpoints:
 - world: boatworld
   xRo: 91.90329
   yRo: 10.547924
+  race-type: boat
   x: 141
   y: 132
   z: 339
@@ -91,6 +103,7 @@ checkpoints:
 - world: boatworld
   xRo: 181.40527
   yRo: 16.961285
+  race-type: boat
   x: 97
   y: 132
   z: 361
@@ -98,6 +111,7 @@ checkpoints:
 - world: boatworld
   xRo: 90.2641
   yRo: 21.878178
+  race-type: boat
   x: 56
   y: 132
   z: 389
@@ -105,6 +119,7 @@ checkpoints:
 - world: boatworld
   xRo: 270.26166
   yRo: 23.588377
+  race-type: boat
   x: 106
   y: 132
   z: 376
@@ -112,6 +127,7 @@ checkpoints:
 - world: boatworld
   xRo: 359.9774
   yRo: 22.662014
+  race-type: boat
   x: 127
   y: 132
   z: 327
@@ -119,6 +135,7 @@ checkpoints:
 - world: boatworld
   xRo: 270.61768
   yRo: 14.752246
+  race-type: boat
   x: 181
   y: 125
   z: 285
@@ -126,6 +143,7 @@ checkpoints:
 - world: boatworld
   xRo: 179.76135
   yRo: 23.944765
+  race-type: boat
   x: 93
   y: 125
   z: 247
@@ -133,6 +151,7 @@ checkpoints:
 - world: boatworld
   xRo: 89.2612
   yRo: 11.3317
+  race-type: boat
   x: 35
   y: 125
   z: 319
@@ -140,6 +159,7 @@ checkpoints:
 - world: boatworld
   xRo: 271.0453
   yRo: 17.673851
+  race-type: boat
   x: -6
   y: 119
   z: 314
@@ -147,6 +167,7 @@ checkpoints:
 - world: boatworld
   xRo: 90.90015
   yRo: 24.871117
+  race-type: boat
   x: -41
   y: 119
   z: 373
@@ -154,6 +175,7 @@ checkpoints:
 - world: boatworld
   xRo: 359.54492
   yRo: 28.14907
+  race-type: boat
   x: 11
   y: 119
   z: 401
@@ -161,6 +183,7 @@ checkpoints:
 - world: boatworld
   xRo: 90.18759
   yRo: 28.291636
+  race-type: boat
   x: 34
   y: 119
   z: 436
@@ -168,6 +191,7 @@ checkpoints:
 - world: boatworld
   xRo: 270.404
   yRo: 10.761698
+  race-type: boat
   x: -1
   y: 119
   z: 420
@@ -175,6 +199,7 @@ checkpoints:
 - world: boatworld
   xRo: 269.2641
   yRo: 15.750024
+  race-type: boat
   x: 34
   y: 119
   z: 343
@@ -182,6 +207,7 @@ checkpoints:
 - world: boatworld
   xRo: 181.82812
   yRo: 8.837778
+  race-type: boat
   x: -29
   y: 109
   z: 346
@@ -189,6 +215,7 @@ checkpoints:
 - world: boatworld
   xRo: 182.11328
   yRo: 22.59094
+  race-type: boat
   x: -59
   y: 109
   z: 346
@@ -196,6 +223,7 @@ checkpoints:
 - world: boatworld
   xRo: 178.83533
   yRo: 34.990135
+  race-type: boat
   x: -102
   y: 109
   z: 346
@@ -203,6 +231,7 @@ checkpoints:
 - world: boatworld
   xRo: 88.40643
   yRo: 27.151592
+  race-type: boat
   x: -126
   y: 109
   z: 425
@@ -210,6 +239,7 @@ checkpoints:
 - world: boatworld
   xRo: 270.32794
   yRo: 33.422455
+  race-type: boat
   x: -91
   y: 109
   z: 439
@@ -217,6 +247,7 @@ checkpoints:
 - world: boatworld
   xRo: 270.32794
   yRo: 33.422455
+  race-type: boat
   x: -91
   y: 109
   z: 415
@@ -224,6 +255,7 @@ checkpoints:
 - world: boatworld
   xRo: 270.32794
   yRo: 33.422455
+  race-type: boat
   x: -91
   y: 109
   z: 377
@@ -231,6 +263,7 @@ checkpoints:
 - world: boatworld
   xRo: 270.32794
   yRo: 33.422455
+  race-type: boat
   x: -91
   y: 109
   z: 324
@@ -238,6 +271,7 @@ checkpoints:
 - world: boatworld
   xRo: 358.69034
   yRo: 30.785963
+  race-type: boat
   x: -16
   y: 109
   z: 231
@@ -245,6 +279,7 @@ checkpoints:
 - world: boatworld
   xRo: 0.40057373
   yRo: 30.857222
+  race-type: boat
   x: 151
   y: 109
   z: 231
@@ -252,6 +287,7 @@ checkpoints:
 - world: boatworld
   xRo: 179.9043
   yRo: 22.662243
+  race-type: boat
   x: 156
   y: 109
   z: 305
@@ -259,6 +295,7 @@ checkpoints:
 - world: boatworld
   xRo: 180.9732
   yRo: 31.213442
+  race-type: boat
   x: 109
   y: 109
   z: 376
@@ -266,6 +303,7 @@ checkpoints:
 - world: boatworld
   xRo: 180.04688
   yRo: 28.363005
+  race-type: boat
   x: 49
   y: 109
   z: 437
@@ -273,6 +311,7 @@ checkpoints:
 - world: boatworld
   xRo: 178.26544
   yRo: 24.0874
+  race-type: boat
   x: -28
   y: 109
   z: 397
@@ -280,6 +319,7 @@ checkpoints:
 - world: boatworld
   xRo: 179.83313
   yRo: 26.510237
+  race-type: boat
   x: -58
   y: 109
   z: 397
@@ -287,6 +327,7 @@ checkpoints:
 - world: boatworld
   xRo: 87.83652
   yRo: 12.970725
+  race-type: boat
   x: -109
   y: 109
   z: 415
@@ -294,6 +335,7 @@ checkpoints:
 - world: boatworld
   xRo: 269.75818
   yRo: 15.749925
+  race-type: boat
   x: -74
   y: 109
   z: 411
@@ -301,6 +343,7 @@ checkpoints:
 - world: boatworld
   xRo: 269.75818
   yRo: 15.749925
+  race-type: boat
   x: -74
   y: 109
   z: 358
@@ -308,6 +351,7 @@ checkpoints:
 - world: boatworld
   xRo: 0.11566162
   yRo: -6.340707
+  race-type: boat
   x: -57
   y: 109
   z: 317
@@ -315,6 +359,7 @@ checkpoints:
 - world: boatworld
   xRo: 91.25714
   yRo: 21.806973
+  race-type: boat
   x: -39
   y: 109
   z: 364
@@ -322,6 +367,7 @@ checkpoints:
 - world: boatworld
   xRo: 0.4720459
   yRo: 21.094337
+  race-type: boat
   x: -18
   y: 109
   z: 432
@@ -329,6 +375,7 @@ checkpoints:
 - world: boatworld
   xRo: 269.75824
   yRo: 18.243914
+  race-type: boat
   x: 31
   y: 94
   z: 414
@@ -336,17 +383,18 @@ checkpoints:
 - world: boatworld
   xRo: 271.2989
   yRo: 5.1293755
+  race-type: boat
   x: 31
   y: 94
   z: 330
   radius: 5
 orders:
   '1':
-    duration: 157.764
+    duration: 153.714
     award:
     - give %player_name% minecraft:gold_ingot 1
     baseline: 180.0
-    champion: v0v_tempest
+    champion: NoneFlower
   '2':
     duration: 195.0
     award:
@@ -361,3 +409,4 @@ orders:
     champion: Lmsh9822
 state: P
 baseline: 300.0
+type: boat

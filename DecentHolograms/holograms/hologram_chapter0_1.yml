@@ -1,0 +1,33 @@
+location: world:323.346:72.500:61.119
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: "========序章 章首语======="
+    height: 0.3
+  - content: "从现在开始往后数二十个年头，到那时你回首往昔，"
+    height: 0.3
+  - content: "令你心绪消沉的不会是后悔曾行何事，而是未躬何事。"
+    height: 0.3
+  - content: "离开溺毙梦想的温床，断绝思绪上的枷锁。"
+    height: 0.3
+  - content: "现在你应该踏上前路，让这片大地上的风在探索、希望和开拓中伴你前行。"
+    height: 0.3
+  - content: " "
+    height: 0.3
+  - content: "Twenty years from now you will be more disappointed"
+    height: 0.3
+  - content: "by the things that you didn't do than by the ones you did do."
+    height: 0.3
+  - content: "So throw off the bowlines. Sail away from the safe harbor. "
+    height: 0.3
+  - content: "Catch the trade winds in your sails."
+    height: 0.3
+  - content: "Explore. Dream. Discover."
+    height: 0.3
+    height: 0.3            
+  actions: {}

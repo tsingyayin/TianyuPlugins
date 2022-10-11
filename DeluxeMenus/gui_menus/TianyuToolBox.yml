@@ -1282,7 +1282,7 @@ items:
     priority: 1
     update: true
     hide_attributes: true
-    display_name: '&e2022.9 月度副城：繁花镇'
+    display_name: '&e2022.10 月度副城：繁花镇'
     lore:
       - '&f单击前往'
     view_requirement:
