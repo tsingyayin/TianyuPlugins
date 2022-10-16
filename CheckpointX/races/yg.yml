@@ -1,5 +1,5 @@
 reason: ''
-racetype: boat
+racetype: walk
 author: TsingYayin
 available: true
 description: 跑完冰船后再从跑酷回到起点，看看人生是不是也会这样兜兜转转回到开始
@@ -7,7 +7,7 @@ checkpoints:
 - world: boatworld
   xRo: 0.14111328
   yRo: 5.344502
-  race-type: boat
+  race-type: walk
   x: 43
   y: 94
   z: 308
@@ -15,7 +15,7 @@ checkpoints:
 - world: boatworld
   xRo: 268.85736
   yRo: 14.109502
-  race-type: boat
+  race-type: walk
   x: 55
   y: 101
   z: 308
@@ -23,7 +23,7 @@ checkpoints:
 - world: boatworld
   xRo: 179.28381
   yRo: 5.70084
-  race-type: boat
+  race-type: walk
   x: 58
   y: 103
   z: 291
@@ -31,7 +31,7 @@ checkpoints:
 - world: boatworld
   xRo: 87.003265
   yRo: -0.5701371
-  race-type: boat
+  race-type: walk
   x: 43
   y: 103
   z: 291
@@ -39,7 +39,7 @@ checkpoints:
 - world: boatworld
   xRo: 358.99756
   yRo: 8.337357
-  race-type: boat
+  race-type: walk
   x: 34
   y: 112
   z: 309
@@ -47,7 +47,7 @@ checkpoints:
 - world: boatworld
   xRo: 90.35211
   yRo: 13.824394
-  race-type: boat
+  race-type: walk
   x: 50
   y: 116
   z: 309
@@ -55,7 +55,7 @@ checkpoints:
 - world: boatworld
   xRo: 90.49463
   yRo: 3.705491
-  race-type: boat
+  race-type: walk
   x: 50
   y: 119
   z: 325
@@ -63,7 +63,7 @@ checkpoints:
 - world: boatworld
   xRo: 90.209595
   yRo: 9.833847
-  race-type: boat
+  race-type: walk
   x: 53
   y: 129
   z: 333
@@ -71,7 +71,7 @@ checkpoints:
 - world: boatworld
   xRo: 179.85443
   yRo: 6.6984134
-  race-type: boat
+  race-type: walk
   x: 53
   y: 143
   z: 353
@@ -79,7 +79,7 @@ checkpoints:
 - world: boatworld
   xRo: 180.6383
   yRo: 12.327949
-  race-type: boat
+  race-type: walk
   x: 11
   y: 134
   z: 350
@@ -87,7 +87,7 @@ checkpoints:
 - world: boatworld
   xRo: 180.2107
   yRo: 19.453918
-  race-type: boat
+  race-type: walk
   x: -3
   y: 146
   z: 350
@@ -113,4 +113,4 @@ orders:
     champion: ''
 state: P
 baseline: 1000.0
-type: boat
+type: walk

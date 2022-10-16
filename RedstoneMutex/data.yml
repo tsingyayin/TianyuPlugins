@@ -1,2 +1,15 @@
 groups: {}
-mutexes: {}
+mutexes:
+  t1:
+    triggers:
+    - x: -2113
+      y: 64
+      z: 4744
+      world: world
+      locked: false
+    - x: 314
+      y: 84
+      z: 28
+      world: world
+      locked: true
+    force-locked: false

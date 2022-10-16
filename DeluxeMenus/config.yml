@@ -20,6 +20,6 @@ gui_menus:
     file: TianyuMachineBox.yml
   tools_boxmail:
     file: TianyuBoxMail.yml
-  tools_login:
-    file: TianyuLogin.yml
+# tools_login:
+#  file: TianyuLogin.yml
 

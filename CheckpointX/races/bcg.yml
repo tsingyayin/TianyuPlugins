@@ -390,23 +390,23 @@ checkpoints:
   radius: 5
 orders:
   '1':
-    duration: 153.714
+    duration: 159.514
     award:
     - give %player_name% minecraft:gold_ingot 1
     baseline: 180.0
-    champion: NoneFlower
+    champion: v0v_tempest
   '2':
-    duration: 195.0
+    duration: 178.416
     award:
     - give %player_name% minecraft:iron_ingot 1
     baseline: 200.0
-    champion: WSDFW
+    champion: TsingYayin
   '3':
-    duration: 220.0
+    duration: 208.669
     award:
     - give %player_name% minecraft:copper_ingot 1
     baseline: 220.0
-    champion: Lmsh9822
+    champion: RiverElder
 state: P
 baseline: 300.0
 type: boat
