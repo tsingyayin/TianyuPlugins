@@ -14,7 +14,7 @@ header-footer:
   footer:
     - ""
     - "&e资源包版本&a：&b0.4.0(Build17)"
-    - "&e服务器策略版本&a：&b20221009"
+    - "&e服务器策略版本&a：&b20221016"
     - "&e整合包策略版本&a：&b1.4"
   per-world:
     world1:

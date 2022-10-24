@@ -390,7 +390,7 @@ checkpoints:
   radius: 5
 orders:
   '1':
-    duration: 159.514
+    duration: 157.414
     award:
     - give %player_name% minecraft:gold_ingot 1
     baseline: 180.0

@@ -94,17 +94,17 @@ checkpoints:
   radius: 2
 orders:
   '1':
-    duration: 76.656
+    duration: 68.956
     award:
     - give %player_name% minecraft:gold_ingot 1
     baseline: 300.0
-    champion: NoneFlower
+    champion: v0v_tempest
   '2':
-    duration: 0.0
+    duration: 76.656
     award:
     - give %player_name% minecraft:iron_ingot 1
     baseline: 350.0
-    champion: ''
+    champion: NoneFlower
   '3':
     duration: 0.0
     award:
