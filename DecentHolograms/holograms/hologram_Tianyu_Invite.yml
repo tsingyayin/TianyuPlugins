@@ -1,0 +1,26 @@
+﻿location: world:300:69.20:11
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e邀请新人有音符奖励！'
+    height: 0.6
+  - content: '邀请新人入群并进服游玩&e满12小时且新人完成账户唯一性验证&f，向邀请账户发放如下奖励'
+    height: 0.3
+  - content: '邀请一位：&a3600音符'
+    height: 0.3
+  - content: '邀请二位：&66000音符'
+    height: 0.3
+  - content: '邀请三位：&e8400音符'
+    height: 0.3
+  - content: '邀请第四至十位：&b每位1200音符'
+    height: 0.3
+  - content: '邀请十人共可获得总计&e26400音符&f奖励！'
+    height: 0.3
+  - content: '每次邀请的新人达到以上条件，请邀请者立即找服主核实并发放奖励'
+    height: 0.3
+  actions: {}

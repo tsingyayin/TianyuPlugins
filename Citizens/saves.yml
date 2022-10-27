@@ -165,20 +165,20 @@ npc:
           cycle: false
         provider: linear
       location:
-        bodyYaw: 68.122444
+        bodyYaw: 17.028107
         world: world
         x: '306.5088'
         y: '64.0'
         z: '11.2226'
-        yaw: '102.3891'
-        pitch: '3.4375'
+        yaw: '17.0281'
+        pitch: '-35.7862'
     traitnames: gravity,waypoints,skintrait,spawned,lookclose,owner,commandtrait,inventory,type,scoreboardtrait,age,location,speech,smoothrotationtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '4':
-    name: 江队长（向导）
+    name: ？？？
     uuid: c973c36a-622d-46ae-b793-b5d5d5c42b2b
     traits:
       spawned: true
@@ -216,7 +216,7 @@ npc:
           '0': 0.0
           '1': 360.0
       mounttrait:
-        mountedon: c5dc00dc-45e0-4cfd-8de3-243461eaf00a
+        mountedon: 9f16ed7c-6c37-488b-93e0-bdeacd482434
       commandtrait:
         cost: -1.0
         executionMode: RANDOM
@@ -505,7 +505,7 @@ npc:
       avoidwater: false
       usedefaultstuckaction: true
   '5':
-    name: 牧师（服务器完整手册链接）
+    name: ？？？
     uuid: 57d46334-0b19-4170-b034-9271c52ba63f
     traits:
       skintrait:
@@ -515,28 +515,18 @@ npc:
         signature: mvEqdzriR1KfVYXv6x7jxsXViYS7rH7kM8L9SC+UOptjPKpUZrVpIWxdRaz3escCsG70g2MjMCvMoi848nXz81mreb7v0CF0yI/ANJBRTLH2Hvano4YyRTd00wguXwlFYfEAVVpwsw0kHAV/UItyQPnB0N+ZW+eYN4Kk5sn1NTYb3n6cDPOOMfXthVGoOf8Jck0vSsazd7SfVxlRIYMj2UBnNcB+TODXB8M/rSQt+P2yoUjPWQLEMapLO4z9/wxdGeCW8wZfzitbF8CZO08MKCF79nhHVayKxFvrHlQMG3VJLTkufl5gc1Kjb0OjD1OWAudF0n6O9ABrSDTYwQ3ILWS+Cog1shC5jSryMXrAfACtiDuHbRvQC6YrKRk6Ml5wrCjYO0VFrxVrHSlS037VoYdVJ6rRrQfqeamYDpUo9xhLVSALVHtD2Wg4aAZRzn9HK4oLAujIwGND508Fs+BkN3OR7ddiGFeHT6K22cuneohaxAFp7ZAk0prKqeKgusN8ZNzMWZbEWkNTcE6YqBLfU3n5mFxlJpeJ2r3TgnJtp+pCl3DqksIi4v+S7LAsb1QegbeST29VwLuYlckZ8ZuiknM+WLVJ8VPeoEg4pkzSv2uxGpufZbthR/RBpLYwWLHQYV21Zbg5x1CU4vUU9pEx+jyyzYpJP5rTu3JuLLfVlbg=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5ODE0NTkwNDExMSwKICAicHJvZmlsZUlkIiA6ICI1MzRmMmI2MDNkNDI0ZjVhODRmMWM2YWUxMGFiNTM2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUX0ZvcmV2ZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDEwMGU5ODI1YTFmZTM3M2Q4ZDAyYjcwNGUyNTBiNjcwNzUwNDAyNDZlYmJhNzkyOWZkZjRjMDlhYzBmM2I2MyIKICAgIH0KICB9Cn0=
       location:
-        bodyYaw: 1.2113495
+        bodyYaw: -91.77108
         world: world
         x: '311.3186'
         y: '64.0'
         z: '8.1959'
-        yaw: '1.2113'
+        yaw: '-91.7711'
         pitch: '0.0'
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
         experienceCost: -1.0
         hideErrorMessages: false
-        commands:
-          '0':
-            command: say 服务器指南链接（可单击打开）yxgeneral.cn/DirectFiles/TianyuServer/Server.pdf
-            hand: BOTH
-            player: true
-            op: true
-            cooldown: 10
-            globalcooldown: 0
-            n: -1
-            delay: 0
         cooldowns:
           1ef9db48-ec66-358b-8a8f-ce7bd9fb0cd7:
             lastUsedId: 0
@@ -586,6 +576,8 @@ npc:
             lastUsedId: 0
           d7eb7b4d-8d00-3926-bffa-66fdbc9ab226:
             lastUsedId: 0
+          1a5420a3-1c33-318f-b61f-783a698e0f5d:
+            lastUsedId: 0
           8e5ce52e-c2cc-3064-91ec-8deff24f4bd1:
             lastUsedId: 0
           d743040f-d2e5-3faf-8793-aba313ab3bd4:
@@ -625,6 +617,8 @@ npc:
           5d78ddea-07d1-395e-9a4d-19b573fd33fd:
             lastUsedId: 0
           921950fa-be68-3e42-8769-4d1535b9a56a:
+            lastUsedId: 0
+          2569d469-a924-3ad1-bbed-7d91fe45882a:
             lastUsedId: 0
           eb1be183-354d-36c8-8bb7-320b7f0852c1:
             lastUsedId: 0
@@ -1183,26 +1177,27 @@ npc:
       cached-skin-uuid-name: 2d010135-fa44-42cc-ac53-6725aba80881
   '17':
     metadata:
-      cached-skin-uuid: d8d5a923-7b20-43d8-883b-1150148d6955
-      cached-skin-uuid-name: test
+      cached-skin-uuid: 50e7f9a3-0b03-4b24-a789-0984a5208e1d
+      cached-skin-uuid-name: tsingyayin
       nameplate-visible: 'false'
-    name: test
+    name: Tsing Yayin
     uuid: 2b0f9ad5-73eb-44ac-8656-861eca2aff9f
     traits:
       type: PLAYER
       location:
-        bodyYaw: 128.37585
+        bodyYaw: -98.15636
         world: world
         x: '273.0243'
         y: '65.0'
         z: '-6.6657'
-        yaw: '163.3759'
-        pitch: '-35.3235'
+        yaw: '-98.1564'
+        pitch: '-6.2421'
       skintrait:
         fetchDefaultSkin: true
-        signature: YANNgSPqXPaJYnNK6xYFNuQOlfA2Awkx6cdGs7gY8fq7lQMkIdCO4DOtKvzHccInTAk4plHNzSiHpA4v7fgZPNYQTbHJB8q+ifktPFqv3T3g+ty7rxfDvl9vz0B1mJnyTBrOnI/Ybm2mow5nI6mpFlWznM96eaoQBCAW+kzhYz5OEfbhOJ9sL/0wxHyKbqQkn20B84nkBGIK7Us8dJlzVKVstrhoQGt9RqXMdy+Rltj6+X51NZaRj/xwxjA+KsylI9RP7XNsQtEfxtWLIq8ZnnRQpEkvwEZN1VtCdNTmN98680ek/NJoh8D/6IAxFwtXWO/9zaE1DQtwYR/PK/JrimZ1KItshcF139OY/gOpwRJtPJx1xlVHV41+LU48XF0QvP28x5cbvNdxgM9dwi8UcW9i0eW+8s4UTeitwJ5zBY/Yv4TAxTCYe81uD0zZtyiQOjzJni9l9VMc8axwk6tif4EMn9NxpfUmcVitq5T8/y2FIDy3aY0AiP7+7zgvp38eEk7vrLni1Qo6atTwa3vL/5J20dC6uX4DCtMUJRLi1gbj8UiAWfIcYGyLQ/7B+lT/olCCwwumXF2MvYhRq2ey56STPtZhkq+M+tv9vMoyipvPbTSbYXHqXkcKuWkRR2VEMpybsKBECy1rkdaub8QLTVl1XKKUcX9Ih3HHTTTBPpI=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODY3MDgwMzIwOSwKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjY2QyMjNkMjM5ZWYzOWZkMmRjM2E1MjFlYzkxNWRmNjU1MjQwYjZiNDFiMTZkYTNhZmUyZjg0MGE4OTA4NTEiCiAgICB9CiAgfQp9
+        signature: MCduky8am6OmAr+Aloz3SE3qgoTQAZunNiYQldqEUvPIr0gCxJo+5Q46efLvbn4XCVYnp72kJgnh4Pna9BfFNfsO5fu/jhxrBEy+SVfDKmBKvQ9d8qPB0Kyou2CJ7I//j7Wh7u1kS4atfpSP0xdV5gmi7MsoAgfk4JcYBJBoThTB4vzYMuCzme0e08dbXasJ+cG8AFBMmhq9VJ/q2LrN6bqKU77qGqzz7IV6010ka1HAgU5K5by5tm6dUlgzLYz5Ervo7FSqMCxiYS224YocelqGGAaVTXDxUPbT8yIPKb57Y69Bur3abqscEmCqHLpUy0VcG0yLjdUzt8/m7XQXWb5D7p1Tg+uXuoMNTOZB9Rz1vnhtN/MBYerOnNMuRxwQ0mSHCnsTzk4Uw4ZhAnENUZ6xvqxtHqBqzyKMyHgNf0xUQhKo/hFMBXzXsFalhKR89DeR46f8M9z15cf7x6tSCy2TSULgHkaQ3bsbfV/IZeYTVn76HutjndUE+rByBwDY0UXy/HACkW4erFAHa57VJj1sAeppACOHyzYuzphoSpMwaJLCsPp13fT8cxtEM4NL/GpNs7o8RKLoc0E6uW71B+fTXTe7boRcKgX9cUWMEPnmC225fdxKOmn4+42Qi3V3vqeYP2SH94dUn+Ej7YS3cYaiN4Ym/mb6+fs8paNJsGg=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2Njg4MDg3MjYzNywKICAicHJvZmlsZUlkIiA6ICI1MGU3ZjlhMzBiMDM0YjI0YTc4OTA5ODRhNTIwOGUxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUc2luZ1lheWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlMDU2Yzg0OTJlYzM0NDBiYzM3YzRhNWUzZGI4MGU1ODBmZTQ5M2QzOWMzYjg2ZGU5OGQ1ODc1MDI3YzZkZDQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
         updateSkins: false
+        skinName: TsingYayin
       age:
         age: 0
         locked: true
